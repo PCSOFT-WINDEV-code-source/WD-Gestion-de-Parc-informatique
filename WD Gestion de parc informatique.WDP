@@ -1,0 +1,255 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WD Gestion de parc informatique
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : Le projet a pour but de ...
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : WD Gestion de parc informatique
+    internal_properties : CAAAAAgAAABGneLF4o/nTkp5avyGZ70BYNbF+Mm2o6n8Q0iSdTHPIiK3yQd7cya/kfFzzUlKCVUivyoJyOMJ7CB9JmZ6nLdeymKfCTVkR02Qgg1sOYYLr/F3YpF+PstBRLh8284y1qNuBkxxHFa4PekZ94xfisY3biy4QQoJgEfMBhhT9mQaO5AJZiu9cA6rXsjBLIFrzbJ9vHr+6EUC52qu/zXQWDWnng1ka9Z2i0BBlgD/hBB2kqZtVV1wifZJ7VVq+M7GWbr5oqfZKHCCINWTkJvvxvlp78Dw4tn78puGA2f7lKCI9rkDaz8HvceXQxJzJ9vY19uTBFEKrFNfkFM95fjdi0QnQmOikAgGsu1eTAt8MPAbj7/K1gFSUi5NMbwN+XMqmF9ujlCruSR7ew5EKlGhSxemovDMJWGgQ6hCnz24kMAguybh1EKdElyHgSGQY/kwW1kwyD8MjfiDMPCP/AOQ/gw3uaZJlK1T7hpg2KgiRAsNC+RbKlF16FNSrT3/tBpa9zB5Ej2SQX3RmFZYg5KlX+ObLSpNja90ErlJAUM1YwXq1Pmc0gC+8D3CLqO/PwCB9+dW3ynS0phNPLc/BBVamSoKrjIVnPnxLMyNa4gdLskFtrFnvkd4WFKQu61rp+KWUBGUQs9iRH8MNkdHsi+flD7irOFh7csoSL2UPPQXoSnAvIbuVBH0VI/YiZJS8q9VTbnlkaC1vY1wkfPue/mOO9q7ubwI1kq9iiSrd0OYvgPO7M6F2z5tDGwH71aGpViJEpo+HChfkCSV4lL6ZktCGk8wLOj5RmN9kA0+X5VF0KGkKJ7fEg/S8R4HKqHdzerzveN8G/w2HBQIN2B/vfqboAUHY6zVfGrslectMxIqwWa3rreQ+62aKYbBPVoKd83Yq7+cbi85HDqGzqnX9DYguJUIGpxP14AS9yf+E8dgV2QYZf0+obWscd20RqaDVcc5+lJYHJ++DJO5XjFycbaRClntLcyLKRrkw0rYHFJcz3/fMJNv967YnRpo2jvZd+8fZvZLep8ZWlKhRgaJL11DanQiTBx9z9dFO6lH0ns2BiZOiRluQfrdh7t5wgPYAd3w3WyC6DuW9ezf5JO2nlxMPsY3pWvFEv3IhdgMXgtTT4Hos0X8JfGn3eAToXIXz3TjKUrDPNJkuR/H7jjdzy64Oo4KbrDKGu3GU9MX5DFfiAMABoPwpthVhb1M98gYjTMOybOvtx6aRQmay9l3z1fa1wuOZXSuVlf0rq7yOEWkiL1ze+Z49rRQ+ORCJr4BwKa3wc7s3ZFoygTT/85SUFW8jdEUjwKY3Ozp7+KboUouz6tdWdd5+EUEBthtY9JzpOB9Xc5e2zAiALdFAxnp+AKVr/nf4NWkKsyvK/t6Qs+5ZyncED6h5WmjBCALfEnHanSFUbhb87nsJYvfA5L1D+LkTQ1pJLn5InPO6ZnqMqWxewVlpmSaA9z4fzlqeOF1m1AyWHqTKL5eMk4S3q2KXufVA7sTlA9C2NDHaZmeHtFyx6n/D/EGbGoKb7Nk4E66up46S0d9UcMO0kb3ywJBIBgj6oe02X5IQ83MnCG3bblPScclV4pIRCc/EvaIa1Uo3osaFaryfXxa8q2SO70xHPEvMuOklZnhDpE2PQ3yLhHbfY9CNmyEI5lgRq2V1gGpXfsVpblTvJqYd0zBNyvKdIVRioAh18PeDbSXQc6bMD/STm1t07fq41JGp34xf5E8pSNhOcJjLwEcKQ9abwFe5on/Vnu3m545zlCkxYZl5vs4ayF1avoSYsZ2GrFjmJScKBGHk+lZsGlwYGhexbSDeuuuP3EV7GiYLTvDqQuM39XwosnkEQPIkPUtEYj18yUWNzn+6iTiqw9OgmKMxqknCCo9E/kmX3+fq+8kgMtKmD9bkTfTZ7z1LtWIi0RIUK0UZXLZGPUES8u/BucCEVBd//GefoQA1yiBj+AOU8NW5yyJpfIn1XF2DyVEWb2mXzmWFNLUV780QXoDhkwTZmMxChTDA7KKDZSmDpwIq/pnP2UjlHmsFjDcMeUy9OYhiBNnas4e/jwQlOwgGd8tITIL/pKWuCwJOP6zBIEKE9vFzonl9DsjDPU0akWgmVuCy4PyNAznlQFvRJVnG+9u5neIvLM63yk3XfpBxGk9NR8dMCE1NcBG4qgx6yj58OwI+N1rzKv8QZtLoea8s8PmG/pEvwOTsfPHT2QsBjKDieWJGzSOmtKHOzAsFAgN5sgCt+zUXBateULa4yY1ntYgXJxkeL+RY6M70ud0YTf8GhUFy5z2LgxuDCWqDfO2T3spC7OXW/T6YvIIHiKckjjZNpAv8oWKl9bVvj4tyiUDiRUN6iO8zHPbJr1qRurHLBCFaDnQTnGU9ShHIIL5JatCRn2x+R7GrUT8YsF4U0JpwhbUxBJfQrSXJ6Ci9rVMrz672EqCFIumyLT1DE/sJbJjej03ujPpGaoicDtjrWz2gBUMMjJthhUJKBjzish0SRWf6jZu+CGOluWsGa4UCTOFKe8WuVxiRtk4SBgruzt9Z2RP80IVwA/jfG7gj4jWfoqX+KetmOgTVvPKURtYq7HVnSO2n6qFVwQPwlwDvnlZ4ZgYGN3NiwpnUCoUXx0kTk8PcVDQjpS+0RUpgCS3xG7wJXLFAybcYJFfTnGrq1a6ak2VBr2vbU7tUM0bKaskqPmgul4qkBWzEVD8P4oQ7kAixAjy6ASy5ERhzNcK3kDf1RK24ULa89O8HE+aDBD6ySwZDlfCkicBh4HAKxOCK6Bki7FjXHYGtNYN3socxN+/0+ae6HrrjfGM0B2zf2+jC7re8UBwnVO5n7izvev/ppQlfIRy0aE5C7f8GBJh61llZFe/z8sFk9CLkL80UNTfFyU2CVTTVuz5sUnKhUbdoKSS1eZvre8LpaxDwhr6ekxJOujmXEQsdxvFd+msKfJJ3WqWUhUMcbc++t86qr//QmyKpxG5koonaYqeo51HaJy6izcP/IdDsbuuA9CLnCBpWiV1HdXhZ7/KWKdHs24uNwAxTp3HmfQK2y7QWdLoNNErep8S8SH7+PSuAKTOc5TjkTB85G7FdbUIz4QE8u7Olw1yGDYsouMqmQzzK6w8aDKIHDb4wxEsoHSC8da+eHRv9ROShP+9P15lTG2bZpW1cDsjmgarb4vy8r1XjgdWtlix5KZdOLj0slqkdXWR9/y5BTMrlx6tZw+yYRR6TXNWKX2DypE2jGDoXAO3IqDk0PE+HW5u0Wo6Ckt5xiR/U1nOIEobUYV+Zjg7xnuW0YqyzRv0X7jpSxAh67y/5FwhWwWSMfNPGoSVY+n/ikdiZj/IPoM9DwLk8hV8A/t/ijZLtleEjYpxfbT915fc5VyFh93/1AUvwi0oeK5v9rV2dqbuLHSMdGACYoZiScNV8BGhnO6Modv6LpjauhgOB3/MQBJoFdjK7fZo2PIDOpkHydsoVqNHBbPCutVdONJSJWSXWunUwyekyna9/wwqMaWJe7XwI2gxnIXV28cciSNFHYHHE0TkOjW50zVqAtgFSPAgq0fccXt4IkMmvl+GIZLdjxK+FUDkL7lF88DDbslSBFOr06GOxLAMaAGqoeF0ZyV1SBXkQxhRs2jv5Uey/3dJ23DFtuFTtpBgWETfDqoRvKIeBaYybO+j0a2jQt3u8S3vmoIk0zY2UAcw3Bjeh3cJO1Yr8i8gG0YLzRtSWXXWVhc/4yV6ItT+gh/7qkg1hOPEOwDRlE+N/89LSR4vWNoNF9mYYzXKfZpC+ss7MPFIvGEw2iw/5a+sEARxxFSX0oQyhX8X7L54yF1nxSq+ycpToRGREtgeCSuGhvntjgjXDdrP36/53ZBwDGHdiEjWaZA3+uP9aPNuLBpZW/jONT7XFSE9jDDLDtZm7g+uDShzdyCp7X6KoJDjGX5/WvxniscGAZKOb1tlJcLozO2uZZW0oEBsJ6hv8tvJDwDQS8WIGEd4EthTFcyDlWJeuW9fxjLiGVUPilki+HigFB+3WMCEzE0n4CoK7b9OriesofO58Wbcoi5JL6cCKs/G9cxZ/COdUK3GJ4HCppt4+LIpzIPudkSv7uouNS71TZlZ3HRZW0fk3kaqrKn1R92dJDlkC4cVMNGQb98H3yhUDBdO//e5G1Jd7lrOgQLOorLJuswlU8Tbr7dEuvu3LUr+2UI1mEOtmJG3Vg/DN0ZbWb5JvLrXVXqTstqkw2GooQOnxTLFxeQbo+hl21Or8Q6j/iYt4C9I5vl0/SSlsc57mRI0HRXtm12nMrbQ4/20rAr9Rt6RpwO4wqQNezPV8xC97NzN9D/Ej2JlMIqk7Dvo1M7wGxyEtMvd5kebcrfP02T80X7CUui1EQgKhrb8QF2cEwtdfCoyaZ/CE7G2LlBATBdmH1pGGh056piYw7pUkoydmEnzEReVCVdUxjbG2uv+BCTy4E1Ivg9yhfAivCstQ+fKsVGy7jnRuL8iUVIC0vp7XGCKsDCAF2mI8VKDAZ+fkqATngRgu0K678jNsjXipnJ67a0yro7zBkq5qMjwEKctP+8oSB8njzDJwUuA7AP60QfIhzoHJmLH7L/FEPDqbnBQxc3YNBxh3kTbhjo/NSDBMEJTow0ZedFSPLoeOgi0pyuuXcG13OT5eJn3/Okw7E7BPsedg+QoE+p04k7a2vU13sx8KoRz3KKcgOefso6eadgp9FVsqguj7rsXblF4dDyF6Ni7drW2i4RrFsKmfw5vvNY50QbuhGsMtKx5C96bTvcfqpmgjhS/A1S4JZnXantFjisFtEQoLwoAL29OmoY20YTWLEQQ1s+bDHqGE6RfqaTUsi1VE4oO+rJIb/6HIlEwtnFGgvoch1DQiwkE/Rmh9CS4GtJvh/Ahd+i5jeq9wAXgrinh55sYghocnsfcXAQTBYAWyuvvlMGGtH+aYuW7Oqa/YcvCqJRHjfYgecPXNWog56iM2sPYmzg2Wk1NHL8D7J/ESPMBrF2QezudBYhXdLkqKAQD3JrONmQzMc/qHclw6jxJrCrRkJVDl5lNJ6F8oIoLthBi9kpv9Sbp7MuYKq8Xo9aONIMOGrADJqe59BrO9OKqoHudBNd23yMmS/XhZwTQ6d2075/ewayDU2JJyg==
+    configuration_id : 6373606241903690793
+    type : 1
+    generation_name : WD Gestion de Parc informatique.exe
+    version :
+     version : VI200010D
+     internal_generation_version : 1
+     autoincrement_version : false
+    icon_filename : .\gestionparc.ico
+    language : 1
+    new_features_help :
+     name : ""
+     internal_properties : CAAAAAgAAACe5gYi57r9utD/+2AdDPtkuBZ9oZwbsSYCGokQwsQHO5hRloRe5vNBrKwB7kb9Ajcm8MJJy+ThV1nz
+ elements :
+  identifier : 0x4ac37ace0099685b
+  elements :
+   -
+     name : Etat_Fournisseur
+     identifier : 0x487c7fcc0003960a
+     internal_properties : CAAAAAgAAAC+pJaKOWZOYWmTK39F3V7k2InXf1HV0bqbt9u5jJMBP8lJmtWHedgdSvHr1V2Tb2Grqw==
+     physical_name : .\Etat_Fournisseur.wde
+     type : 3
+   -
+     name : TEST_Utilisateur
+     identifier : 0x490b5a36000667d5
+     internal_properties : CAAAAAgAAABl4U1RbgsjPIrgSJjWgBUXg5aiSo6iCMNf7sLSwV40hLh0Saa2Cne6105IsHBgGIhw8A==
+     physical_name : .\TEST_Utilisateur.wxt
+     type : 17
+   -
+     name : Etat_Machine
+     identifier : 0x487c7fcd0004988a
+     internal_properties : CAAAAAgAAAA7F2OnBEHp8vwm8qYcx0vp4f6E1NZq96ejiWNx9gmVY51XpulwULF0nYR+ejq2QrYeJg==
+     physical_name : .\Etat_Machine.wde
+     type : 3
+   -
+     name : Etat_Modele
+     identifier : 0x487c7fcd00059adb
+     internal_properties : CAAAAAgAAACOlOY6Cbb+MTljO29VER4MiPnX3+ENLTGj6Y/NaKft49UtVik3iegtWsE7hQ3DvzGbmw==
+     physical_name : .\Etat_Modele.wde
+     type : 3
+   -
+     name : FEN_Composants
+     identifier : 0x483d72da0000542c
+     internal_properties : CAAAAAgAAAAjHxsPvOnB2uQeuu7UkZf14dJcbHquIwyjPbmTBCtjVasBvLO4CGmsxXxmUtIO6t4mLg==
+     physical_name : .\FEN_Composants.wdw
+     type : 2
+   -
+     name : TEST_Fournisseur
+     identifier : 0x490b5a120005dc39
+     internal_properties : CAAAAAgAAABs6kRQbxQcz5vxjV0byUjq5vultYvHvnmjFcPJmGc1g6Fdou1xV7p/6F9Zp29hGY95+Q==
+     physical_name : .\TEST_Fournisseur.wxt
+     type : 17
+   -
+     name : TEST_Principale
+     identifier : 0x490b59830001acef
+     internal_properties : CAAAAAgAAAAOFGa6iTZ+sbnju+/VlAogwGcPlz8rfgGnvDBsWcZO8hI8Y6y3CWit2kG7BY1DP7EbGw==
+     physical_name : .\TEST_Principale.wxt
+     type : 17
+   -
+     name : Procedures globales de WD Gestion de parc informatique
+     identifier : 0x4836814e00006379
+     internal_properties : CAAAAAgAAAAsKgQQr9RcD9sxzR1bC4ymJkf95dDyx0hKRAy1FxGDTecf4C8xl/o/qJ8Z568h2c85OQ==
+     physical_name : .\Procedures globales de WD Gestion de parc informatique.wdg
+     type : 7
+   -
+     name : TEST_Machine
+     identifier : 0x490b59720000694b
+     internal_properties : CAAAAAgAAADySCp+zbryLTVvNxtREvqYNLczK5ezXs2vSmIyq0TQGNQK1To7jfQ5Vs03gQH/++3XXw==
+     physical_name : .\TEST_Machine.wxt
+     type : 17
+   -
+     name : FEN_Utilisateur
+     identifier : 0x483a7f580000f7ec
+     internal_properties : CAAAAAgAAAA5FWGlAn83OIb8hNTiRDHL32IOliOhSyBDD2PcbrpQ8BQ4hYrq3kOG41pEvES8RLQcJA==
+     physical_name : .\FEN_Utilisateur.wdw
+     type : 2
+   -
+     name : FEN_ChoixUtilisateur
+     identifier : 0x4836ed2d0003cbb5
+     internal_properties : CAAAAAgAAABMyqTwT3Q8b3uRLX17rmjafg01XX2hd2R36ILSx2g0jLReHdKRd9ofSP/5x0+BeW9Z2Q==
+     physical_name : .\FEN_ChoixUtilisateur.wdw
+     type : 2
+   -
+     name : FEN_Fournisseur
+     identifier : 0x4836da9d00014594
+     internal_properties : CAAAAAgAAABj31tPfCmBmqTeei6UmBcFgYCI0OmjsTSKeAGQOu6kZKRsFXr4yCnsBTymEpJOKp5m7g==
+     physical_name : .\FEN_Fournisseur.wdw
+     type : 2
+   -
+     name : Etat_Composant_Machine
+     identifier : 0x487c7fca00018f08
+     internal_properties : CAAAAAgAAACLh/OXFFHZgky2QhasAY9teVo0JL4VYXi5lBmmIDvTFfvB/ANgoAHELRSOaiqmUkaOlg==
+     physical_name : .\Etat_Composant_Machine.wde
+     type : 3
+   -
+     name : Etat_Composant_Modele
+     identifier : 0x487c7fcb00029281
+     internal_properties : CAAAAAgAAACFge0xDqsDHCpAKHh2/LWfo9ZyGs4aCemfHpb+xVq4EDzgndKWatcad64okBDAuCiQkA==
+     physical_name : .\Etat_Composant_Modele.wde
+     type : 3
+   -
+     name : FEN_Principale
+     identifier : 0x483684d500002e75
+     internal_properties : CAAAAAgAAAD4ViB8y/C44+8VofH/dhwOgvH5sRrslpWy0hh0sEjMPIxmFWoN816jzHNtS8sF/fPdZQ==
+     physical_name : .\FEN_Principale.wdw
+     type : 2
+   -
+     name : FEN_ChoixFournisseur
+     identifier : 0x483c08f70002a328
+     internal_properties : CAAAAAgAAAAEAmxIdyyEp7P5hdXji3TuDr+Fjcc7a4SjZZE77lFDnadPcI/p30KH4EexD5dJMacREQ==
+     physical_name : .\FEN_ChoixFournisseur.wdw
+     type : 2
+   -
+     name : FEN_Lieu
+     identifier : 0x48368c9000015dde
+     internal_properties : CAAAAAgAAADNSSV5RjN7pLL4sODOp0HDYww+7sW/AFBKpMXH7zllQ/EfQr2+Am+y30awCIh4APDYWA==
+     physical_name : .\FEN_Lieu.wdw
+     type : 2
+   -
+     name : FEN_ChoixEmplacement
+     identifier : 0x4836deed00021e85
+     internal_properties : CAAAAAgAAABxzan9Snc/cH6kfCyKZBkTh/rWXnJWISK3eAZOZdqwIJRoFWoCxivuGwL8xEyEfGxU3A==
+     physical_name : .\FEN_ChoixEmplacement.wdw
+     type : 2
+   -
+     name : FEN_Machine
+     identifier : 0x4836c7f600006a32
+     internal_properties : CAAAAAgAAABr51O3dDF5oqzWYjaMaC99WQjgiEErS8CCPqcgun6UpBSMFWoAwCHkDTSuCopGMqZu9g==
+     physical_name : .\FEN_Machine.wdw
+     type : 2
+   -
+     name : FEN_Modèle
+     identifier : 0x483c390a00016eb4
+     internal_properties : CAAAAAgAAADZtYGFIh8XGCZc5LQCv2UndyCSUvlRRuy3GusNX9k90ymnOrXKPqNmg7oknGScZFS8RA==
+     physical_name : .\FEN_Modèle.wdw
+     type : 2
+   -
+     name : FEN_ChoixModèle
+     identifier : 0x483bdcd100002d0c
+     internal_properties : CAAAAAgAAACgnpiEIxgQy5cN6bk3hXTu4uehcUeDen2jOaftJAuJd3VJdpnVK5ZbtGtVo2OdZVulrQ==
+     physical_name : .\FEN_ChoixModele.wdw
+     type : 2
+   -
+     name : Etat_Utilisateur
+     identifier : 0x487c7fca00008c79
+     internal_properties : CAAAAAgAAABDP7vv3ImhugR+Gk50w6OJOaYsTJ6KAqC7/9f9ylU5/8EDmuWYaMkMZdzGMvLuin5Gzg==
+     physical_name : .\Etat_Utilisateur.wde
+     type : 3
+   -
+     name : TEST_Procedures globales de WD Gestion de parc informatique
+     identifier : 0x42528708021f91d5
+     internal_properties : CAAAAAgAAADHQy9zsO3F5vAq9loQ4INxfVzEXGyAxq2f/j4WMe6sFOzE/QJ8TLV4kYhyTtYK9urSUg==
+     physical_name : .\TEST_Procedures globales de WD Gestion de parc informatique.wxt
+     type : 17
+   -
+     name : REQ_ComposantMachine
+     identifier : 0x44f70f32019a659b
+     internal_properties : CAAAAAgAAADGTC5yse7G6fZZpUB45EhoiJnXHxad60mOG3OcTTfdM8V9IsPWK4dQj4lzTdUL9+nTUw==
+     physical_name : .\REQ_ComposantMachine.WDR
+     type : 5
+   -
+     name : REQ_ComposantModèle
+     identifier : 0x44f70f9d019c0948
+     internal_properties : CAAAAAgAAADMSiRwz/S87/gPf+nmLMSlqi+pSQzb0QJWzc84vde9A8kVM1ZF/FGaxX95R88B+e/ZWQ==
+     physical_name : .\REQ_ComposantModèle.WDR
+     type : 5
+   -
+     name : REQ_Fournisseur
+     identifier : 0x44f70fda019ef6e1
+     internal_properties : CAAAAAgAAADAvjhkQzhwq7QbC9KSOsfomt1Z2XIBU9FyQminXlY+omZUiX0cLV2m0Uu1A4N9BfvFTQ==
+     physical_name : .\REQ_Fournisseur.WDR
+     type : 5
+   -
+     name : REQ_Utilisateur
+     identifier : 0x44f710db01a0e17e
+     internal_properties : CAAAAAgAAADOVCZ6yfa+8f5RTuUibLKlWBun70CP37NKhBPFDJgEHOjWiOnKf5xol4F7Rc0D//HbWw==
+     physical_name : .\REQ_Utilisateur.WDR
+     type : 5
+  other_elements :
+   -
+     physical_name : .\Description.gif
+   -
+     physical_name : .\description.rtf
+  analysis : .\WD Gestion de parc informatique.ana\WD Gestion de parc informatique.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ common_generation_directory : true
+ languages :
+  - fr-FR
+ code_elements :
+  internal_properties : CAAAAAgAAADyta1ztdEgrYxL2OIfroDzF7WpTxHA43nOPaiO8dWw0Vx+ktT0kYY/W+5/dMYhNYy+qZVHZb8274tsI4CTf3ye4wZX+srPcRKhBS20
+  type_code : 0
+  p_codes :
+   -
+     code : |1+
+      
+      
+      Constant 
+      	//Constantes pour les modes d'ouverture de fenêtre
+      	CST_MODEVISUALISATION = 1
+      	CST_MODECREATION = 2
+      	CST_MODESUPPRESSION = 3
+      	
+      	//Constante pour le type de composant "Unité centrale"
+      	CST_TypeUC = <§@00000000000000000000§>
+      FIN
+      
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : WD Gestion de parc informatique
+     identifier : 0x4ac37acf00b36a3f
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Unité Centrale
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

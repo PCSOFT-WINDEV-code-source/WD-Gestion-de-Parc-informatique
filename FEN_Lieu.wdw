@@ -1,0 +1,752 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Lieu
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Lieu
+ identifier : 0x28368c903c2a5dde
+ internal_properties : CAAAAAgAAABBaG/3JtEjGuDcDwgAfGBSmJTcDHQLLH4I4k4GS1/hba4qkK0rVPBDyhOIX/PqTjFte4gvwRJvRM8yXydK4MPQAPn1mBsLyq0qB1/XFPPBHNxj/9kwdXjOc5V2VDIcCwkOgGprz2Yp/GwHBYqtNRng4lfGv49WkjPDFnD54lVn0XEodgJV1leo9YNFZClTYQSPrDlWtk3tcgcUNphGnWg1vScxNxM9e1dWih9X4C9MvzN/aHHsByVDqCir6mEIplnWgvQimBn/bZhOLTzBOIYULas6xV4JS3tNIdZrfvo4DlovYPSDFqMYSvsKO5Lt5Bk0RAc089MUtNoCa4Y5d6owb84RJrhyN2nIhx4UfugVXHzXXJDwYA+KbcBwKhxf4SfnsaUFnHF7wIn9P2cosnIgKUg7Fyta7pqhJHj7s379dQI3YKl4UJPCuuHAshko7p8TvpNelIFNqsNexeRXrXnG28KE3Sq32xIYEBegmtKUM+qjezJ45nRaJERQuqv3HwrT/bISu2E+YsybNUHe/jrFz4o1Qg6u3wCsP3KUD5VW9WVY6w/QqnT1r1o6/6LU7/ewdWV3ckA12lvEqsvzZeYTDgETfSC8HtuQWzWUsCx6e6zNVeG/Nc0EG/PTzNp5eb74A7rZuT9+s5YQspo3/4Z9ccFcvXZ8N0YczFQhfX9ztBPFeJ6U/FvzaDCyltbH3frR0fvYuQxBOInwt2eFV1qNzcz8J6FxGuPCFI6+BJo0R8ymb+my1Jm+s1xi06nhbMG/rrkZTDmzSkgjTyBO2yXXqoR6gkJ9emPZkeGDWatELxW+nAMac+61NGpTEW9f2fSZwkafjyY3JBqlr+ViIAWsKfk7VpsTQEPz8WC5FOd2UZyZyveFleyKvRQNG5F+0FQOZ4OTsA/S5BvAdPor/n+/zYG27RzdRKAU4O2OYk1aAs/6oRI1G8pbWMe9d0ZJG8OYnHFlMiAmFuD+89MhjrsctlIgUw4LLMUnjUV5ldCZtaEfxfmc3s9EV8t90wpUWwWqNGi2jjrTygb3EGjTpYDNf7TeYN+QKX5MBtQlcaNOzQ==
+ properties :
+  width : 974
+  height : 634
+  widthClient : 972
+  heightClient : 602
+  widthMin : 344
+  heightMin : 308
+ controls :
+  -
+    name : IMG_PlanLocaux
+    identifier : 0x28368c973c417b4d
+    internal_properties : CAAAAAgAAAAJGURu4gz0v1zN02+ccFXpxGhMrUOu7DpTYpBaXWA8HRPZL5vJ+TweVpMzKIRcGVsHpT3Pqd9EgXoJAfiIQdmzT61hXHNQg3K7p/A8T8b9gEmSSO26C+Udpm8iGkIiB30MLtgEziaLy89RFCdWXzxUPzlixGiJBc9Xn5MYLG+WPjQdqhd6dARfPb1BxWMhPAud5FOiDtFa0eUlFhnRynlnc3HW1FYONJFBWyIMKe8OC4qnRa97mv/imUiv1AxISIhP8biANoFcrLfuu8fSMbhpWCxzq9/0wqPRhmY6a6avgHgabgADifZQrt1ZhN23RpNU42pw2Qq7Ni8TjUDUM9BopADiGiah0+r5k3quz8Hc3oF5ZGz7I5wLBiu650nbTc8iRTGUI+jFUWHK1pK8jwePBMCRm18XncMCmg0AaOg/+Cv2+Q1oMSNF6ilhu7KqPKpOT5Ah/vbn2VgInDTKnA+Kg9qQfnp2suchHVf63iXkEYNOIHobhuM/qBcfJ3oTLNQB0Minvp8WVLDSHu/3KiEXMbnnr9MRNf4EpRj8091z97rAziJnMpn3N0KOja84YKIK+W1ygQrm5hiDLKk2DwxctYtNPRpdtyNXUt0h1LEUsW5NE2vva9g+Flbb4qzTairAPoGrOAeqg/nCZJq95ZgcEwV+R5O8ItoTyj715olbAaYgs7Fa++MrHs2JV24O2+2nf9AgU9b9rlkUv4xfijsANY1YVtD2v8Cv7Z3WLy10tdupWCpq7JYKqrnGj/fhx1GWUa99dhGyicMmE8XefRXVws/JTstuPa9g58XTaZjtnP2sqTfW93rw3RsqyjhmVgGM28cRkO1czI6SoAM8jVDZHyveBTlLiCGEVtJbj0fcGR+TnJGoa/wAkxMmUGaIX6Pfbpiyls0=
+    properties :
+     x : 16
+     y : 60
+     width : 709
+     height : 538
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1+
+         selon gnMode 
+         
+         	//On est en phase de création d'un nouveau lieu	 => on est en train de dessiner le nouveau lieu dans le plan
+         	cas CST_MODECREATION :
+         		CréationLieu()
+         		
+         	//Dès qu'on sélectionne un lieu sur le plan, on affiche les informations de ce lieu	
+         	cas CST_MODEVISUALISATION :
+         		
+         		//On récupère les informations du lieu en cours
+         		Lieu_SelonCoordonnées(SourisPosX(), SourisPosY())
+         		
+         		//On affiche à l'écran les informations sur le lieu
+         		FichierVersEcran(mafenêtre, lieu)
+         		
+         FIN
+        type : 18
+  -
+    name : BTN_Nouveau
+    identifier : 0x28368ca33c7ba856
+    internal_properties : CAAAAAgAAACBsl6PXpfn5fjaHEtwj6qqpllyDGcX3hcjebjDrIf7duiff2V4vz0iTI4TlvC0RZMgF0ZyWiFjBzVE/JJNU6EWiH7O+bPvFQTyiYNYbreTB5kFCHwbaDr7kR8J3bXBlwGOhz12ZDml2j0ufJ6gB8mgl1GRXXiPLW1x/aEu/VgMO097cEfFE0jiE77Tg5hjOuRKnHK+/Hz/EHezvraFNkPQWrxDPUZF+bmFXvWH/kgqnaHBj3rpJk3BcvtiEKnrGDHL8eEVxQ1S0753J6Xg9pFbOVGb3rkF7PT/00Ko1D6Pr7XjgI4EqHyY8VczcHdsHiISAyfda6PwqOVEzqhsuYjcPdAYG3r+I5QHa0uW400v1p/f1D51nESzRJofZwEOR6Xe64jZsau9hhFnv7242xW+jIFKAV5XJX9poXq7/fovMqy6hUmOkhKQwGh7cQRNjoGRZl/eRKVFJc6hyGfMabApoRnRI2lFgH4/UFLfDzjMxEc0UcSslg9lpj6rD0lt4XmYIMfVY0Pp2OuCnZGpv9KcprblOAj1s/kZ5jF/RCqHXXSftojoooiNNeAOMkqp6wDtlUftr27miHa+r57GSS8C1x7Es2ZaGyvGSVkJsD9JYciJrMf8W6Q288aspsLkTky2ATrOQ221IaipsHDcwArJSXTVnejXxP3RqeQIHbYC0/jdvPIhrm2ZHrmIJ/JC3fkzjloYjpA7NzTRIzbRqGk3UwtQy4x6K0cFCLsTi6Ur6FFsgKzxqOMCLq8cill80w9fQeyGu6aNAEpQk7ighNEvyfSSh1pfxWz1LJDZU9wINYdL7PZt42RIHaKYzFl75fp+4WYUNvG2O8sN90A2zyGtqGpWybTD6FYVBAvpjisHuUCIbkDZ4ee4w0IeprOnM++yN17KzC1KOqLKnPrYXVywsJEZfnbtc1zAV3btQpfddfNQeM+WdMdkouIOuPUbzYojBZQrVSyeiHDfbrNVQD+xpdSztxB4ZdF4zdOLRax2vkVgGSUeRQ==
+    properties :
+     x : 540
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         gnmode = CST_MODECREATION
+         
+         //Remise à zéro des coordonnées du lieu
+         gnX1 = -1
+         gny1 = -1
+         gnx2 = -1
+         gny2 = -1
+         
+         //Ré-initialisation 
+         hraz(lieu)
+         raz()
+         IMG_Picto = ""
+         
+         //On rend disponible les champs de saisie des informations sur le lieu
+         GR_AjoutModif..Etat = Actif
+         
+         ToastAffiche(<§$0000§>,toastCourt,cvMilieu,chCentre)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Supprimer
+    identifier : 0x28368cb53da6eed7
+    internal_properties : CAAAAAgAAAD77RiffczcCok2/esqJGOtRuAAaEwmWlczwxBj2BlecnSgcKv3geOQgbhBDSIIndpkP1DSs4WOwk3W5u3EjMJM3gd3ad/cix027VZQkQWYfdmPqzo3TjdHAsinDvA1Poijr68cvcYTrZKwkk1mpP83fQE9ytDSpX2m5Dgfjf0vanwtVxGZd80DBHJGlGSzKigeJCf9J663gAau252Tbl5TAikcLNHz6+5RqLjllvYsWv6ekJRkhKrnNVuHN0OPJl9UcIIAkez/8ffytvkJwmw1MfmwnTdS7Y3QR7k0F2RzC53QHyACtT91Dj+jNU4sh02mO9rkkgN+Z13jhY9bzpM4zN3jo+ERmqgIlJSOldmAyi9BYBqKcLVfNZjo6hnkMREYJ+qLzQoyhkru4OK65oMnaQlR0wT68C6e0fNNnlM1iPNTolEQJ+NLOOb09q7/uHQhNJMBH02Y4uNIFEQr+WRwprKC3w861mFMmZiKOoZc5ZSn3Aja0bD63qhBPf/xRPbXCZdNsEEHbR8XlWqE349I/dOzphPLIgdsL0fjqpvkJ35rhLJlSouo2ONiloE5MNIm/sKSvE7/kKoqgoXDUb1FDcZ8AKwRrEhfcPxM4S7uBxzqTGnvD3/cf7iS7Nu4fFeAcAhUHRl8tgz/TyXAR054z6MaeujOINEvThINYTMVdHTv5RpQg4kWP4NfVWF2acFXNUrCUDn53z0yFsMglAvj+fBK2K/2w16m4Yihny5hBicQKLAXvQCLJE4CaPcodYwP8EXgqcSZ9ypzPm6baNbXHatK3VqCQ0ISywbAdIMDGH10mPMbsBqWiscbyJI1xXeco5YiuIeATZPwONRKLKcuk0wGd95Yz5G9QAagfS85PIa1t7JxsFPUhksYiTIlsJYv+N7ehlZ36FgwsU/bf//E3u++4OLT4fgC01bn7yWljgTbLFQub5BmRKey+ItVoHW0jEpCS3+hv1bvW7RIJS7rJ6zRPIk6b0eNUKw92I7cbw==
+    properties :
+     x : 744
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         //Pour supprimer un lieu, il faut l'avoir sélectionné au préalable sur le plan
+         
+         SI SAI_Emplacement <> "" ALORS
+         	SuppressionLieu()
+         SINON
+         	ToastAffiche(<§$000c§>,toastCourt,cvMilieu,chCentre)
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : SAI_Commentaires
+    identifier : 0x28368e0847091b34
+    internal_properties : CAAAAAgAAAB8mbO886v6aIe+fOESABaGhXFrAKPcXjgm+1OghG9GHMOuhI9r9uDCw54GtL97YuCx9ybTofe3eKVaj6I73MckRsaxP9exnp58aDa/w9n+1Vjhy6T/PQtC4uhtHNTzTlOlwJkDD9gHQFVFGI7OUAbCIoH4ygekI9rgr+Myx88VO7OcECH3zej0rKtXw7DPzHpF4WPfju25yPHIhzHiNrMOH88eEMXp2+3DsHHwAG4nywbz1Wnbpl7e9jxFZ7H4zfpVVxGfBmiJvIw+HIUKFYfLMPM+XOTyvJ7qdT0RTjkvqe1yHLife0kTOFFzAplaCYToJeWlL4bN7JHkb6l+8eY1DtLCovFIjUQYS5r4+mr4S7IkKx1BNnp4iHOZB2FN5ZUicZDYPcejUuIb04l/gSQMiutm3SVuRbS5z9322r8q8DKjKDpYzG+N3enWNH8pUBf+3rprszlA8brTe7dGC5SRawyMQk50yO1eu3TwYXV7iBweSnBowQfjcJ2/zH4z1/XMmILPNGkc07Y6t/IGEDnrkwjh9C9aQNBE270Y7VVKKquMe3AuXwBOMrrSRcdUU3hFG+DrQ6iPSARLQ4RW+7Sn2cwUt89ipYEj0FdnXAcjwE9nMd3QSYqBnbKLbTW8R2u7HZqUFqow2H76sYU+NF7JKdGIVm49yE+qBjLm0xaudzOZX3Rl+yZTQ+w3h1N/w0bRA4eXgCY1FgVPDpHKtd7RlIbGgKZqbRncSP/kqyQ8QKzU5ibzZW6Af1jz+9YmzYISmKPgxOIz4Swu4owzvvZTFMg9zuZsk3GfiGnHCQbZqOl1piDzMuT+VlshEunDj48J009psqPcqDOQY2JF7TGMpPJKpqn38zTVYcHxazrR/ItgC21aeIV4hF/oI471JXuy52VrkGvTimLuUSx+n+UEulCuFPmER8iMkajBoFIABcFEehpAabeJ3BRjI7zcyLLM3p4yrtLXHIFBpgcatzzteGeZsLvxsKwDV3G3ankqN4TONpKiU05OGxp0TW8iWlvOTtbllAw5Y1H1pUOxLZyU8rz39BAtduDBS8bmEGdeiCZfVVXGX7znoD0Kc68dOOVcsFf1dQgPinefYLA+F0I3NwnFeAjaq7J9bcB5mUMzykyoWrIYA6t90bUxJNvH/MtUHGuve0d6MwFj8Ks9QnwcGkQCpJe+BBVgVKNZKyGKc10iQGvdUWFbvgK6hkiue7v7uYXSfIWk/uNKEN5EpZloYAVpZfUUmdHs0jyJRNRPqmb9eb4qRpE9O2MYcYrGbeb8Y3KWFtXz4C52fYZtFYlwtjVSnuRfDyTuK/Qt99qwacht67ae6B9Hctd1SQ9jLMUJSK1gFJ2IU1q1u4/CVqn2vdrSSI6wIJFKi2sgnKdJEwmZYhBMxAK5WgmatELwINHCARl6qOg6tRC4dVO8nxhpudhQHM7m0MNjEOqtU+jBhIlopk+oAEki7IelfpD7nmfbzNn3kjl0Wlgn8lKjwTAbcvzqNsS5Weg=
+    properties :
+     x : 737
+     y : 154
+     width : 193
+     height : 109
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : SAI_Emplacement
+    identifier : 0x2836b7a0510198ee
+    internal_properties : CAAAAAgAAADHjGaVAgGgvzi4kOyFiHQpDnGKiM7wHQ4hok9GXC5f3xF1Ofn7AOUYgRpGv3Oy/nZGvPYmLfXACDm3G8TkEtHYhLMsXtnWEiJBeGDjkrlXME1gEABORCO9qj4wQ+Ct4rtrE+sFDBp33+Mr4eh9NlhYEQf/52buVGUHpznXlx6SoGoqvD+qqSSY1iCqNHP9Z97XTJpLZygGHVOYa2jyD3kt9dC5BQ03bOgmWNhHd3VPckN+WxUehVgJoUYGF65wUmqH2imr2uJY/Br72zkGnP6M9taZQnHY2f+7VRrxqhfvHmHpWO+FK2R9RFZI6+XmqjTvd+e1sExwPS92w0J3qwrdZbOhwBcfY/WTBMOnux83GAlQnbeHxx58mr1nNNR7HmXTRltzri8j0XedGlTKdG7ixZH40J7fo64FbsskH82CU7v2V73gmMzrOLCSxtuDFLk0dXaRzKwwRbcyrJjB3H9iqNeCIDJeOnnguoalr7yOCvVXfSjoF7M/dGcNtwUJJ+BW+3S0Uqzw2ABVkD6Hp5RuAkfhE4IBh3za2DAut7JIKeL0iX7ZQvamVQAUvT4LyFyqGQgWh/tOmO2nDi7sqXb8lbqVntG8NWhG0qe485K8K3sAVTTuTM1I8gHlibZfJUleV58d6yH8L0sGL6CRC6yo4MWwu9FVUVi6XWxZECgSCuz73zaptb/5iQ/p5864FD/7W3p9uIataxugI2tL8zy7J4PtIxAdG/X751n7w/T/alIuM3DKq773g0Mwf9r1NNxDh6DD2aU9LHHDDfD675SuT31YzeXgDoYncAditOtq3w1TmV31Jqcjyor5IE5yUurURmdgVFoVHZLOfAZIWTUDAtcPQwyY+K7eme1NJZ2ulSK/hXth6QFTa3KuJnbWdheR5NDTQSBaCGbU2U/r/4UMhTTsxrSbztdk0P4BvontcuWmlGC62N+SiAjehg5uou8/Hr70nNGc2axb+ytfhJHubZ1PVUMAIpvImZJ2ViPFa5QFdNFMqCwm35oLelLJ3doUiHnVMvYTDyBs6dgAtK67xOgqC4jjXZMu/W+qPj/L5HVcVSErnWakwyiEGORzuSfmzkkhXeMnCw0JPO5xaL2U6IX+eL5LsRx3KPXZh0ThaAHfcaUD/guPtT2+SSoc83qKXIKyRUzeBEpkjrEZTsNbeXuiZwgNdrcgkHGM0mXyH8i0M/T3nck3wWmnFCzSPzo+k23a0UOgWtWGwyaavCm7yC+VmWsbMopWCNYbWofBBdFAOP7E/SLuwlOCTfjYn7PUk/t6QNiswswUMmVnTqVt9dIzj4+fzLcitfdxIZBK7YjCJAjSUVLIh64ungSOrXrC+SG2QbeRpCpIA4dIk2QldlxclIPPHxSovSs9WXPfNyjiFO/s+FqF7mkS7gUelKj6uS9bA09q3tZDvjgMBnX0LYOVtB/4nCk6/oNCiFiwgozYI1Ws8kFKsPbgTE0AdgPgV1n9OajOTw==
+    properties :
+     x : 737
+     y : 108
+     width : 193
+     height : 40
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_Modifier
+    identifier : 0x2836b89e650a796d
+    internal_properties : CAAAAAgAAABI7jn2PWzhVEH5CVMVORZJKaRxDuU+X3aKWnTsFWn/GfMiR6XIn4hcXxHqJEYAUaQ3WvsL7Ow86FEje+WCYBivFjwEaz8bw7rR7dZ0WQ9cw39nZn0f+HiO680VTpilETE2xd1r6zOmeyAqVb8uGiEsqKTyLcYaEXyWCduAgYfPZCeDJSwnYAuT0Fw4Yp/klmejqeGggeCj44a79FbE9XC6Xy8VJe0k2uxeqE3R0s7derXIB5dp+bHHHMkqyxLwBzgMUtrQsTsAqgEUjIHM9Gv3YjKGScFxE8522lqQB7N4xi9N4lGZ3zSQZ3A3aLneyWgzMEv6RPKHwa5od9zMxsVcBJ4PgWyboUfY0Bk5460yqv2LwwmVc+0jiy6Wj6Liqg7Ebj+h1A295wy6i4wkAob5810gXjKCdVEE/QBCqMXJdVIJgOGHI7FkzG4F3fnR8pEKVHJ8hae6G/6eLx4kN6gTC1+bLI/c1hT/GqBfPlIUi9arspugtNqqnkz5T7AcJRbbFo+oG8l5+1DFFGwXPTEZCPiiqmdRy76c/202X/ccc5zSY7Sb2rM8NWbROOkNvVLRt9w5EJLQpmdtVHhGDtyUeL8I2ummT49JNsOCZdvTDJck6AjYxgXtuSvC8rKjG0ooz+OquC9acG+qpkNjrh6A6JdfWSPdxmJ/WT/Ejf3XJVoHFprusQ1YARVO2tT8CjwMdDpKhOuFTEhVx9qsB0B/KhWI/fx5SE57ws1ihs4K7duysVJMRLQ2s7Dw49UeNvDto9ZYxPjn0Ppk2ainnrDDLrju2kgCAkcBxJ3U2IxdXxiChHpYx1JN3YWklR/AUoUE7+Vr8O1nd5jM8Yk3VeUVcPVwRSUPQNoCv4nuM8fX5S4aGQU/2IZyUBF6pdtXA3S4d2Nu48kQDPmfoQz8QNkRT247kDi7IrvVZE8YKJTGEU3+RzkiwxRl9QEegVxWXIvwnsaXEQtWLZiHOaPgYglTm8wWeS/edb1X3kHOeVk+/SlpQzA=
+    properties :
+     x : 642
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         
+         //Pour modifier un lieu, il faut l'avoir sélectionné au préalable sur le plan
+         
+         si SAI_Emplacement <> "" alors
+         	GR_AjoutModif..etat = actif
+         sinon
+         	ToastAffiche(<§$000b§>, toastCourt, cvMilieu, chCentre)
+         fin
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_InfosLieu
+    identifier : 0x2836b9cc6b9614e1
+    internal_properties : CAAAAAgAAAB4/CFtN5n3WnYyn4eDFEv7B5Ded+38hLgF/2kHm7/qQRFKBYDrtKF1VMeePINdktYk9s51gfKc4UX3F8uNn0jmQyjod4pEizW2AhnmOjq/zjGyaD0FXJs5njR7BUEeKFcP4T/jBCWBULFpZkVA9KuT6fQ1GSlfFdWGgBP2S+UIjlQ9YoXjm34cEdiVxIMF9DL5Tr3i3blND0n+1X+Gjb78jaEcruKaL+t2MZjEVc7iHhl6drQKqFpJMivEzkwfAj+GqdPAA6l5pD4I6i81BIDkWc5fBEFO6A0Rl06ZhZCHGHFL0TOasNX+OgH5e4KQXOWi7flrw6/VPEss3whe7BGLgV3EaHGJynXYVLNWM63yNYUrfeMeOhRQk+aZPRoKhWT0ou2zNqk32xXKcPoNToNiH18LmjnFi75NxjwsBIESaAjWUOH0jFbWLmEL6V1f6do0C+4g2dyBvh6eJoOS01/s
+    properties :
+     x : 731
+     y : 60
+     width : 206
+     height : 538
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_OK
+    identifier : 0x2836ba2a71ce82b0
+    internal_properties : CAAAAAgAAACAQi2DUihDFdlrZii3R2S233G/V7jToqdDMZZ2pSJBD8Ebj+jaodSKCZjfHb4LvgtW1wQfktUEuktcnHmZu0FuxTxjZ0T8kBVlbtwzFLh1xxs7eK6REtvyTvY6v71R2GfaU4lyvf9B9PEXaaZmIn0LkZ0803CEnK5DGWdZLyUW7FDILNu+CaCgTUoelvpPlptcxD2yARB9XdxUtXJybw6WiGpmne8i/1h2G0S1ZigUL3brR8Vjhp6LrRdMeYYW8uriFtHZEurK7mkWvzsweS9ffrmohIE4mSyYj8C3s9Erf0Q9Da37OuP4cLLtAM7gqJtsby3VdGQamcuRRF8gh/v2sl+RgPQNBM+/yV09LRcYFSnTP+ijxSboSOKE3A2hI5Ke71tPyw3c7IkqtO/Qzzy3wEAIlknmCnDdpFOXbUYBQjO2VJTeQLwGgP4971o73rTL+5G7uTeEw6jAh0nDaiZ4UFg0Jcp2WWzUI6aB6RvInDMjcKnn4S1j96cvMZVGnXbTW/truywr8iyL+ZYOezr5YsDbSfzRDPcoJ6OFUo1HopbeqphyRF/05A289j6IL3CkZF6WrgSaAfU9EWVtN9SnY67qNMoADdLJ9093T7j/NPmLkhVvBeGi2dA8kyaiknesRT2s2wa2XzBt6bfrMPuLUi9+/Mc3kbFamojyYLDXGAMGq5zHsaUYJ12mSbq9uFfIymtivpDcU5mLtNYSMLMKWTBelvnph6oz7Op66he4PfFXtS9lk5UW+c0l74Y/JuOC+AqOWcCMo+kcO01r6EYmwmlRjAkmyThLjj4oc/yetbndExeKJH/WGKhLwPPB8maBezS1hJayMrx0DFB0uB96hxjGfzSCC0oVViK83M5v+GQaFO+ec36PicQNfKTtoKKT/deNRTYoiQ9h72Tqqsa69l+emXYr5YhyW2P2VmaW8XOQObC32nl9wZDrdzx2kcaTgzOrFoBVcEzyXoCSCxTrhYIhJvv0A+hmAVqpX/V3hA==
+    properties :
+     x : 792
+     y : 425
+     width : 38
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         //On vérifie qu'au moins le nom du lieu a été saisi
+         si SAI_Emplacement = "" alors
+         	info("Veuillez saisir au moins le nom du lieu.")
+         	RepriseSaisie(SAI_Emplacement)
+         FIN
+         
+         //On met le pictogramme dans le fichier LIEU
+         HAttacheMémo(LIEU,Picto,SAI_Picto,hMémoBin)
+         //ainsi que toutes les autres informations sur le lieu
+         EcranVersFichier(MaFenêtre, LIEU)
+         
+         //On ajoute ou modifie le lieu
+         si lieu..NouvelEnregistrement = vrai alors
+         
+         	//En cas d'ajout, on vérifie que les coordonnées du lieu ont été indiquées
+         	SI gnX1 = -1 ALORS
+         		ToastAffiche("Veuillez représenter l'emplacement du lieu sur le plan.", toastCourt, cvMilieu, chCentre)
+         		RETOUR
+         	FIN
+         	
+         	hajoute(lieu)
+         	//A la fermeture de la fenêtre, on renvoie l'identifiant du lieu créé
+         	mafenêtrE..ValeurRenvoyée = lieu.IDLieu
+         	
+         	//On repasse en mode visualisation
+         	Reinit()
+         	
+         sinon
+         	
+         	HModifie(LIEU)		
+         
+         FIN
+         
+         //On met à jour le plan
+         AffichePlan(IMG_PlanLocaux)
+         
+         //On re-grise les champs d'ajout et de modification de lieu
+         GR_AjoutModif..Etat = Grisé
+         
+         gnMode = CST_MODEVISUALISATION
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Annuler
+    identifier : 0x2836ba4e75ae1233
+    internal_properties : CAAAAAgAAAAzpHq2as07vXlHj/19UYhOi081USeIpY3kTNrpkXMfMLcc6x7AW892CF/HpXcxC3xE9pLYSLbxLGFL4t0o83y8R/6V5bxAs+cZ86VCuyNd8IG5MDDoLvDDRmQOZRM1Jzj7x+KTot9aWRN3gNud3MTR2V6wa47ZCa6QCA8bO7gPu4I4IO21WWv6A27Pq273uxFXgrYqTwauuwXJ4nL/Dfq5GL1+AvHVS0DUDHMKmdZgYM1MmgCsafCNsZbETAUKUznMbW3iUQqIl1FZ3b5prMIAypRaFBfHkan+mf86GLlnisL516s9i4UVU48Slo1ykHBLVZ3Wbs8owA2sGI3dcgZxxVTBmIv0ZGlZTzq+/sFR538f9w0thwv5CuXP54LZISuclLanxUxiYZyS6gJLtl6pLmEIYvWbA+DFn/KSI4XwS0SPw8PkcD7UqHRjKLqhZg4lniAgSuXCx1Y3DIW+iI8hvbG2pffLSs5ymeEppAdtqCBHQqXmFXnfEAhWaLCFs0+Jh9GvvPx+XXmfvBi1y6Dy7lGFnmWCapqdU9qY/718FydJsWKB3NxZy4Xt8uI5TsPsGzLNGfmMee8XYdIRtBbZR1sG3oEV1U79ayjT5uLfijn6IcjzuKbUmBpx2rwRrpR5gEuaGXXyvU4eR9lkOIysuQKhQ404usuE7vGIlA3utVqVxRxjeMJSqK0DFNN88NnGZCNmSsx7DV7Y3sCGMdkCU/7QNoLdYctci95Re1v6LEnN5rwAf9gcRNaGtSo+qf+igkNHlqGXZpjEdOXjsOnlSAPQqONGc//kejc6bXUxWULghhLCI1xHOTK5+eGzOxEkE45dHS/zBzD+gyqUq+GTqPZpe6Ze3r606FP+fnFY2spIgIR/eOebtjBhmH8NBicxCQZVIWA8Zp5Z567ziLIBdVZE06cPSqc1gVqkyWwWrkjIUL8ym1lbK70RMKo/sCB5wiHacb+uNVNeWXtAp3ROvi6XF1g9aYgO3OiUtSRQxhc=
+    properties :
+     x : 836
+     y : 425
+     width : 38
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         //On re-grise les champs d'ajout et de modification de lieu
+         GR_AjoutModif..etat = grise
+         
+         //On ré-affiche le plan tel qu'il était sans le lieu en cours de création..si on était en création
+         AffichePlan(IMG_PlanLocaux)
+         
+         //Si on était en création de lieu, on ré-initialise tout
+         si LIEU..NouvelEnregistrement = Vrai ALORS
+         	raz()
+         	Reinit()
+         fin
+         
+         gnMode = CST_MODEVISUALISATION
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_Gestion_des_lieux
+    identifier : 0x2836cc1df366a677
+    internal_properties : CAAAAAgAAACjGtrMtsrVYFWkPBuzclmAMAxu4CHqKxoRaXhEX6qsz1GlOzKjazmVJCxsLsB3wQgoTOoHZCDTIFRZ2hHQDarfDINdwW/vG2gJmxA+pydvLRJc8iTxdtMxi7GOdStEk8n0QpSBZTzX4LDWwlpnwVYFQ62SSiyeGacrZ+hBqvb8J+r6N4vbGLhoM/1hgR+HObAcx0PqlztTpc0PxJ3l1HVok1UrAkpOBAZaGKEwv4D9Q7iOQFKS/jQ+cXnX4EtznqyB4d+lNuBgK6NaVY/m3NtTHvnsOvzD+lqAo7pVpbtOfNTfDJ9BvNohYlmxtpTqk3K/Lzxmrc+aQ9GWu7kTaQ6CL6STsbtirFX9IVLF0+eFv5sFElZuFg0uSQ30cISogag9tdExpnXrRBAepXHx/LRic6NeGrMh5zXuEP7W6NzYmWlh4KncJEnHJ0KmoX1J4s6IcnwcP0Ld1S3vD4eeFos8eHp88S1hmWGBI8twwZ+K+XYFmZsYdU2ha/npE6G2/6pXiFk3RjoHeTspUr1qxayv
+    properties :
+     x : 12
+     y : 12
+     width : 514
+     height : 30
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : SAI_Picto
+    identifier : 0x2836df2b9f0f1448
+    internal_properties : CAAAAAgAAABS75bI5EiuP3kQn8bpve88Eyb/Q0UrWx4UQ528R/C0VCGZMDJS6+usngfJeHgeS20arySqAonM5Eqew5Ya53n5aYVwHVJkaS8w+HihiiOPohRGG0YqQPsz3WBiDsN87xKQELDiBX+3WvC5KVqrGRXZisMHAXgwqOptJmcp2td7UjMYDEywoDudMGKkcsdZeJRhYqr8STkcCp3Gprer87K4zjo9Vendg8RnD7Rhf4zyhXrj0Nmyy1ydzy7rc4WJs36ryTp/6ln9Lxt8KAzZSjad6I1MkeTEUjfUcSmypc8Jo/MbGPH+xrbTg/XfKBu5iW5x/UxKNnxdr9vT4UwjXa3qiLP0VZ4XsWAMJ+0FUZWJQMN+27MvXKz8CFJ6SFVVSdToZuhdE+/oMmqAdn7QkH/iv6Q//P74jZ2EKaA/xA83rV3F0es8pMkfzHn9VoEvZscXpxgrjqQDpv9ke6gjLTK7MKUw/RQsSMEqTCdsKZGdd4WpXaQY9x50Ca9PfPddcjN81um1kIR2VDotoDvzx/XL5SM/GDRg0h6jUrpLNl6IHx6QVrpDSaUNWGk+pPbWrV+MopzAEAxWHBWiZ/F8XK9GFPah40ZWE02gd3om+gpq3pP5oebrPdM7Gl1tLVZd2VEJni0wDXgzWkLXzS81JONbU+naIEGxY/unGIxeyy47xTqNcYbPH0d7v2qrF297mlsYaaSut6OrJWb+V0WRMuVzBa6KLdHoW4NRlgTzXQXbhlhDDenEe5g0QdFIKG5DyDRdvJD4hcSxcSZQUdj+JB8zsWcvmDkFKdEOVxLN89eUQAe3frvFNePie2DsbcnbCAP20ANWUugn2598Pv/ldRrEirK7c5xyEcc7fKfrPYPbY4RZ23xuPaXa37qKslzBL7BQRJRcSb0WOHq3rTyJVstF87TDRj4Sr8F96c0ya4YyfBZhOn/3mefIDpnCAvJKX4ALKZbf7H2Vo7FyaViN17188wHBKNQD+tqoyhWk3YqLBPlQB87wuZ5NMr26xEfEjxuKDryNyD1fhnx9z7ZvhjnhSVNpVcMnbVpFb7TqhIjhhhyqjrSK3I10h3Em50WnS1IWlkBly0d6cRtnIJgd91HYhiWXxdQV38fvW1WuC3fO5XgSe2wXYg10GnkFD32hj5HmeDJSMQ3pqQnqs1TAST/QKGqNt4Kc/KhXskU3YqfQ26FU5UrJX/+0VKyCFoF1UvumN9NzBEH1JStcMNu3Nb3h+xd4YGTXdGl/41RNM5xIn0kyu0avoo149ybtix6bjdvO0BRTSqRHeR+LxhHO5CZZAwS2JYwfoCBnih4bXRKI7wRf1o1CQ+DmHLFtJJontKLh2AA786h9Ooo9KwS2Z0wS65yySWdul1u13NQcg0jEqUBJHN1i29SwzRoYnjq5XRChEO6SrO0WwV0bBNxVLSLzaMdYdnOyb4vo23ssZeDv0FivzrQULmpuFIohhtZRQDrEB3Dtwglmu4hzXgyhxg==
+    properties :
+     x : 737
+     y : 379
+     width : 193
+     height : 40
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : BTN_Parcourir
+    identifier : 0x2836df559f39bbbd
+    internal_properties : CAAAAAgAAADLDUvDLGXW7yrDUzC50JJGozmiLJO9KJXlrbNK/JKO1O0G/Vk67rFhT63OUL0gAbrfcthKybM0Crna9oKyfzcFHwy/xoUXGFhX4pQS38CObtn6N9ZioQ7Wa9F0kpbBo1CrsHR6MbLvs0Vw2t2jcrESJZwovwTO68IAz7B0wEsEp8gz6fOxPu7Kh9GZWX0JPuruIFAqGa0Tk8gCQTy14G9p2jJL5PHcda7ZmPfHeeugUFlYQUIl+d0uLnKwFJANGTfSC/DJgHIcCeDWIugtXpIZNTjUI3WnXscfmbUnfJ5n21scRQazPuxgKWgxBWTEW28I1Jb9FyxxBjl08JLv+GZVAx2x0Tb2VmP9JshFIQA4ZEaBB4WrjpXqPEQ9kiJgjFe0mgatFJ0hIfUiD3C6nFJfmOyQwhae3uG0oMhyxzwgNHWZrUgnZv34vUFuNzGWv69awcC1vBSKXB0SnuhI3uigVkKwm5+avO8U/zCqNY+xUdOoelGLeVEkPGHj2Vu0QNnp7npj3e3f5MFT+vS7Uzv7HmSKT0ZO4OQKx59qmNt/S6DTQTCy8CyZpVCuHVRCUvGdhJZdOREnP+MseB0nAa8oqYgPrXmTcZFNFc0Ucm7m7+InOsG1S8Srbb9i3cAgXXTwJZWlq4JDytm2tGEQFUct6FvyJ0suG7lgKEyM3CHqWs4CbuMIe3V9R9t9dZxf5ymqqFznZyx7x0mtDimf8x1/Iy6Wdefq3d7k3mMCuy2wpSKHf34+wqRSy15TLUkOmNAVTaL1zYa5KLGy1FhXcpgHTx8WSp5YLie12qXe5G6eZZbvxN4kVkH0dhk2EhCQUFd1sGGr5wak6CAVlNVBieV/b9Y2Frgwr17Ao5hLKKdSEpcM7z3jsO33Ud4o6kfCAjk5FKxzJOpfSa/vx5wEUu9heK1rTYD4QPsbRheM
+    properties :
+     x : 905
+     y : 395
+     width : 25
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         //Choix du pictogramme pour représenter le lieu
+         sCheminImage est une chaine 
+         sCheminImage = fSélecteurImage(ComplèteRep(fRepExe()), "", "Sélectionnez un fichier...", fFiltreImage())
+         
+         si sCheminImage <> "" alors 
+         	SAI_Picto = sCheminImage
+         	IMG_Picto = sCheminImage
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_Picto
+    identifier : 0x2836e4bdc3a5d96b
+    internal_properties : CAAAAAgAAACbnlAEjUnxOq5kzZtkB5LZzY1EL/P69b0W+BarhSLZGcHceL7UrUMaN5nQyaY+8JvdhGryWIMh1o+cPi48qKKv4TU+unJsAx1x3zb1PuNWQj/lRvsH2oOOrdgPGMPaINzyO8n4ikzzCJZwmADZxlqhPD6HQdlTUeEcgXdb5mi4gGlH1dBVT+7NqjbSq79HAIjURNqE0dib/TSRlsM1zm++uPDiP+nxTk8ds/qqw6AgmdVsU32FOPuLGM8PqEeLd5bfvehG12DMpLd+go9qP99XrrmU8vvpicsCMVPhxI48vjuwjzZ8sdOzUbuPZaR4RC95U5DXTX5W8j7a2DIjHzxa1+l7R6/Panr/9WaDvQyX7eEBisvVzLlUBxBEjRlboceQHjnyE+wKMJRwKbtawsH2iIf4YPF3s1DD6lAjSXNaLY3RSw4kSexrVSuQK2gIwhZRTTA0p9nBffuJxs2gKTlmUDieIJKSmHmVuy/kEZXz7/ykXD08MWPVRr5xlhJJdoUpqWZQvOmNqySKhzlX4E7kLAW0HvSrIZPP7fCEvQBJ7HU6F7x1SZ0DpQe3Bi2u5yxS/MugPdp8dUaNrMtHAM5rFtecaIC1nbq0T/q4oNnmjuCKM3B/aDAceP7nrwo77hp855TLQMq80xY40dzHfsercnyfMftFV4WbZTXabHr2Hn/3GCoC2n2odcStaiE8pr1PMj0lhxZN8xt2fUGL7ROMWLPLYNUY9NaZweAK71VGdaFh6yzod20eLrzDgs0uiEEpgSSKlqx/qtQ2J3B8gQHPcGBzNe23CEf7wI+GQhXw9WrRvctYy/1mXw1bw9/DEHiX0DoT/+TGSbn3sW/k6CcaYOP1HbiHibG/a9B2n01JEAISrh5vrSAPmDLFzKnJMKr6d71lMlr8aLtXlqjN0MRPya19SEpOxkkjNYwaz7V/Zuy0eyCkizwn11op3AyZgBwFGjXgvJUK8RrebOkNlhub8jmr4+8tlp6JWqeLFjep0Cuccw13g7j483P7cEVMo63mgUcKQb85dk9085b+
+    properties :
+     x : 737
+     y : 269
+     width : 195
+     height : 106
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_Imprimer
+    identifier : 0x283d73fd3011c842
+    internal_properties : CAAAAAgAAAC5vX8Iqsib7iP7v4EtUhmT8YzH4lhrAN9p41/nJevYeAQQfoSMcsQQWe2jQg/CFfjnCVSP9oILCEFwfm+/F4k1vmFnkrQU6xIJHtJocJrazbdj4O5i7kXK7BXfWZ9X00cTWq0EcgxfBNf1mOwbqmH3PoW54YPSgg17IE2dLLD5F3EB4bAOFZ3vh13za9w89uieGz3g4o5kwJB2q+Hdskv2h8ZsFZ7ghA7XLUkOIYBRcMUboFr2/dVs9smTMwzM6Y8gU5H6q9nLzRkH7nt4tzkghh2STBt7ixb882XLPkIxP4qIfqkLmOSpBRy1ZZlnGvuDg4ssYJHpqS9In5ecXbOTJGhN0I26Q1P7+A3YIy/c9Vrqz3woMP+3a9m766BIGzjhtDzWyJiTRgDf9W3HaTGZa0+pKjb6iBkwwfVn988t7VHQ36LpV8AFzxG11yNYw0xvqP2O47G+hjsSWh3mUVDHCxwKTDkzwAg3covrufFWVad6+RX1At7nQuvahMTcFdq/0NSA0P9PSm1TnYE8AzTFdHW9ADtruqWVqBsh2IhxkjK+fUORjEWGs/+C9m0jKCk+M71P1L3fmdwsJB3vrav4WlTyQr2GkYL+XsKmfzDeGIuI8DWAEHj+uBqKVL8sonRHfmo6CpoF4CPhOUOmGMHWK9Ylb3CnxEtMvJB8lMcIDJFpjZrQ4yudBSbw6GbCUCA23KJHW5KlLUkYjc0TWwPNL0AvPmEa1wNmqUZAlITw6UqUrUAcgPRfoOoPiX0i+yh4dgBs3eYFvsJ4m1wA7JorkvF0pAo/5bhSr2BFmzsBFocZy+tXuOvNLV+UsrSL+b/96uRDLc0adVbv05H3rcnRvEpHT1GramtYYKAvyZV3z9nECE3diWXNOyeKX5PPdLGfoSXv4JC81GO+taEKBsvLqcBNf5b8pvq5A4FC3q5IHFDQCXeAmy6GVnOeDku7xxNGl5TOZ23IpIQyppcNqD4+2Mppt9attU110Q==
+    properties :
+     x : 846
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         //Orientation de type paysage pour l'imprimante
+         iParamètre("ORIENTATION = PAYSAGE")
+         
+         //Aperçu de l'impression à l'écran avant l'impression
+         iAperçu(iPage,<§$000e§>,Vrai)
+         
+         //On imprime l'image qui correspond au dernier plan des locaux affichés
+         //cette image sera centrée et étirée dans la feuille de manière à occuper le plus grand espace
+         iImprimeImage("plan_locaux.gif",0,0,iLargeurPage(),ihauteurpage(),iAffichageHomoCentré)
+         
+         iFinImprime()
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x28368c903c2f5dde
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADdF8tq6uPhciUCBn4A5pQ+a/HLBKNtW+jo6OpvOkNXVkEyJXi9zYGnLtBw4Lly4vu1TDjRBUQ0g9g1fCVNOm14X0m8sioPYAbci7I0EHRP9DXiTBAF/SO2jfCBGg==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAADgZysRVU1Ggtyn89tIHoI98KSNzp7JR922eKuFi375i2/1s7XSyytQU3AEfO3uCbMye0hi6guFYMJQyP/vx0CdlgTrmA==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure FEN_Lieu(gnMode est un entier = CST_MODEVISUALISATION)
+      
+      gnX1, gnY1, gnX2, gnY2 sont des entiers // Coordonnées du lieu en cours de création 
+   -
+     code : |1+
+      
+      //Affichage du plan des locaux avec des rectangles
+      AffichePlan(IMG_PlanLocaux)
+      
+      si gnMode = CST_MODEVISUALISATION alors
+      	
+      	//Les champs de saisie pour l'ajout et la modification d'un lieu sont grisés
+      	GR_AjoutModif..Etat = Grisé
+      	
+      sinon
+      	
+      	ExécuteTraitement(BTN_Nouveau, trtClic)
+      	
+      fin
+      
+      //La fenêtre renvoie l'identifiant du lieu créé, le cas échéant
+      mafenêtrE..ValeurRenvoyée = 0
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : CréationLieu
+     procedure_id : 1744741193111057519
+     type_code : 14
+     code : |1-
+      // Résumé : Création d'un nouveau lieu
+      // Syntaxe :
+      //CréationLieu ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure CréationLieu()
+      
+      SI gnx1 = -1 ALORS
+      	
+      	//On met à jour le coin haut à gauche du lieu concerné
+      	gnx1 = SourisPosX()
+      	gny1 = SourisPosY()
+      	ToastAffiche(<§$0001§>)
+      	
+      SINON
+      	
+      	si gnX2 = -1 alors
+      		
+      		//On met à jour le coin bas à droite du lieu concerné
+      		gnx2 = SourisPosX()
+      		gny2 = SourisPosY()	
+      		
+      		SI bSuperposéAvecAutreLieu() ALORS
+      			
+      			//Deux lieux se superposent
+      			Info(<§$0002§>)
+      			ExécuteTraitement(BTN_Nouveau, trtclic)
+      			
+      		sinon
+      			
+      			//On dessine le bureau
+      			dRectangle(gnX1,gnY1,gnX2,gnY2,Transparent,RougeFoncé)
+      			
+      			//1 : Il convient
+      			//2 : Il ne convient pas
+      			SELON Dialogue(<§?183694D20182A3D4§>)
+      			
+      				// Il est correct.
+      				CAS 1 :
+      					
+      					//On met à jour la valeur de la rubrique contenant les coordonnées
+      					LIEU.Rectangle = NumériqueVersChaîne(gnX1)+","+NumériqueVersChaîne(gnY1)+","+NumériqueVersChaîne(gnX2)+","+NumériqueVersChaîne(gnY2)
+      					toastaffiche(<§$000d§>, toastCourt, cvMilieu,chCentre)
+      							
+      					
+      				// Il est incorrect.
+      				CAS 2 :
+      					AffichePlan(IMG_PlanLocaux)
+      					ExécuteTraitement(BTN_Nouveau, trtClic)
+      					
+      			FIN	
+      			
+      		FIN	
+      		
+      	fin
+      FIN
+     type : 458752
+   -
+     name : bSuperposéAvecAutreLieu
+     procedure_id : 1744742176659321741
+     type_code : 14
+     code : |1-
+      // Résumé : Vérifie si le lieu en cours de création se superpose avec un autre existant
+      // Syntaxe :
+      //[ <Résultat> = ] bSuperposéAvecAutreLieu ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	booléen : Vrai si le lieu se superpose avec un autre
+      //
+      
+      Procédure bSuperposéAvecAutreLieu()
+      
+      nX1, nY1, nX2, nY2 sont des entiers
+      
+      //On parcourt chaque lieu pour vérifier que le lieu en cours de création ne se superpose pas avec un existant
+      POUR TOUT LIEU 
+      	
+      	nX1 = ExtraitChaîne(LIEU.Rectangle,1,",")
+      	nY1 = ExtraitChaîne(LIEU.Rectangle,2,",")
+      	nX2 = ExtraitChaîne(LIEU.Rectangle,3,",")
+      	nY2 = ExtraitChaîne(LIEU.Rectangle,4,",")
+      	
+      	SI pas ((gnx1 < nX1 ET gnx2 < nX1) OU (gnx1 > nX2 ET gnx2 > nX2) OU (gny1 < nY1 ET gny2 < nY1) OU (gny1 > nY2 ET gny2 > nY2)) ALORS
+      		
+      		RENVOYER vrai	
+      		
+      	FIN	
+      	
+      FIN
+      
+      RENVOYER faux
+     type : 458752
+   -
+     name : SuppressionLieu
+     procedure_id : 1744749972043621321
+     type_code : 14
+     code : |1+
+      // Résumé : Supprime le lieu en cours, celui sur lequel on a cliqué dans le plan
+      // Syntaxe :
+      //SuppressionLieu ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure SuppressionLieu()
+      
+      //1 : &Supprimer
+      //2 : &Ne pas supprimer
+      SELON Dialogue(<§?1836921B00B206DA§>, SAI_Emplacement)
+      
+      	// &Supprimer
+      	CAS 1 :
+      		
+      		//On vérifie si le lieu ne correspond à aucune machine
+      		HLitRecherchepremier(MACHINE, IDLieu, lieu.IDLieu)
+      		SI PAS HTrouve(MACHINE) ALORS
+      			HSupprime(LIEU)
+      		SINON
+      			Info("Des machines sont associées à ce lieu. Vous ne pouvez donc pas le supprimer.")
+      		FIN
+      		
+      		//On réinitialise l'affichage des informations du lieu
+      		raz()
+      		IMG_Picto = ""
+      		
+      		// Rafraîchissement du plan des locaux
+      		AffichePlan(IMG_PlanLocaux)
+      		
+      	// &Ne pas supprimer : on ne fait rien
+      	CAS 2 :
+      		
+      FIN
+     type : 458752
+   -
+     name : Reinit
+     internal_properties : CAAAAAgAAADPE9x8yNHeVJfHRWnp2PqWWGUdbpiPKHA57MJDMk+n/DonW+u3zo3q3N4NY51bsl1//m6gJzQ3wRLiy63f4P1sfLTK9+nyf8Yr2HenCW902+Ch5pnIfkV2obgg1x4+Mg+55GbtM/WvBMXmLgLtkrXAXZ/CpH+1iEN56Hz1ME/3IhK4T6DOnskQ+0q3Zpkm3+CLPcG0
+     procedure_id : 1744756259876158907
+     type_code : 14
+     code : |1+
+      // Résumé : Ré-initialisation au mode de visualisation
+      // Syntaxe :
+      //Reinit ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure Reinit()
+      
+      //Remise à zéro des coordonnées du lieu
+      gnX1 = -1
+      gnY1 = -1
+      gnX2 = -1
+      gnY2 = -1
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADo+FjX3ceqiZ8C/xXjsjFoaK1SGLLQzN6bSdk6K1ZJ2txLnvXR9oUXphQdUVSGhaV6Ha3Ix46nfNPXzfdLTA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x18368c89004a4446
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+  strings :
+   -
+     text :
+      fr-FR : Veuillez d'abord cliquer sur le plan à l'endroit correspondant au bord supérieur gauche du nouveau lieu.
+     index : 0
+   -
+     text :
+      fr-FR : Veuillez maintenant cliquer sur le plan à l'endroit correspondant au bord inférieur droit du nouveau lieu.
+     index : 1
+   -
+     text :
+      fr-FR : Impossible de créer le lieu spécifié car ce lieu se superpose avec un autre déjà existant.
+     index : 2
+   -
+     text :
+      fr-FR : "Cet emplacement correspond à la machine : %1."
+     index : 3
+   -
+     text :
+      fr-FR : Veuillez d'abord supprimer la machine ou attribuer celle-ci à un autre endroit.
+     index : 4
+   -
+     text :
+      fr-FR : Veuillez cliquer sur le lieu à supprimer.
+     index : 5
+   -
+     text :
+      fr-FR : Machine.Emplacement ='
+     index : 6
+   -
+     text :
+      fr-FR : Vide
+     index : 7
+   -
+     text :
+      fr-FR : 1 machine
+     index : 8
+   -
+     text :
+      fr-FR : "%1 machines"
+     index : 9
+   -
+     text :
+      fr-FR : plan_locaux.gif
+     index : 10
+   -
+     text :
+      fr-FR : Veuillez d'abord cliquer dans le plan sur le lieu à modifier.
+     index : 11
+   -
+     text :
+      fr-FR : Veuillez d'abord cliquer dans le plan sur le lieu à supprimer.
+     index : 12
+   -
+     text :
+      fr-FR : Saisissez aussi le nom du lieu et un commentaire éventuel.
+     index : 13
+   -
+     text :
+      fr-FR : Aperçu écran
+     index : 14
+ dialogs :
+  -
+    identifier : 0x183694d20182a3d4
+    internal_properties : CAAAAAgAAAAsFFiy6z9zXhSYBpBQpsbQSQPjEfTXoVd51yKZywcb1yE1
+    label :
+     fr-FR : Le lieu vous convient-il sur le plan ?
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : Il convient.
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Il ne convient pas.
+       image : {}
+       value : 2
+  -
+    identifier : 0x1836921b00b206da
+    internal_properties : CAAAAAgAAACqSxqAj2y6VUfi5dDo78XmI61VHdjoh+gpsDYm3UIVqcUStybdrpRejgtXwGqv5ULp+SjLyGXzKsZcG2WkzRlgpRBDgRKUISjC
+    label :
+     fr-FR : Voulez-vous vraiment supprimer le lieu '%1' ?
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : "&Supprimer"
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : "&Ne pas supprimer"
+       image : {}
+       value : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,195 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_ChoixUtilisateur
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_ChoixUtilisateur
+ identifier : 0x2836ed2d191dcbb5
+ internal_properties : CAAAAAgAAAC6fTewFFi3qrt+UHBbqokGQpZwJzoPUtMhNp38I/Z6m54hAnzU6BDUMJ2I9kst4qFg/irFoGdm4dVipwC1HxcwjLGdEykqz+I9ErhehPlIxFnPo4k5AytiyuQ1sPsvgCskmfDBF88w2DS+3pb+DOUMrX036UkulOw6OZl8e83EhJprIrVXP9A5G/q4T10XP4LVJDBe0gXdqR4bTdSTD8iiP93gpsUYCPZBcc8AUK2XPemwcTxttzn2XzHTKysrUzw2hqRf3LIN7GeQsVXh9jcryHB2vdfdF3JjAW3wFoXFYgxKZt/YQOMgP+CDPqPRaENITd1teq890G2dJFgfOx+FBFuwpJEP9U6oBZJLDkt4hTavIsH3C24dr9uTpGwksFL0kRG+YUUIOMcYriiWw01/pOV25upxES2xr2yJJxRq2CiTCsZkazQuyKdWKlUByVlRLC3DNEThjpEcgtWhdBLcSaj6pMNGbwbrf7tjwu9Eq34kO8rfSvnRGwSdIcr2e5k7NtmQDaWqHuZ7PkysybNXrNTMhCTyakX5XY1SGPPSqEAUbmNwsBPcoj6/h0/I0ZjFXwpjKmaQ+1SaW2uW806KQ3HAr/Y0q6Jx86Y0+6rynklvRikzwwCfzs3QiKNpe0ufoRvRteG3oIOYd3w+Z0y2BpVvfRJeOOnzXIu1NNlboYathSYAHhLgZ64xtlEtfW0nQzRS2rr6TV0jlndqLZJBTu7fbERaBO9x8S6Np4IvRXBbWC435fyBFr7hgEhGel2q+5mfzvldN0lXJx/JQhfqWfHaGeV11W4a12UDHA/tKouNVv4k+5cg8rpo5B6IAjvUbQ6Un2y4y0l/5bfC3W49LlxwL/nglCnn1sQThT4kW6hk4wVf5awnRpWGSQ8yx6YxDithJNOOj/kQCQZZj4mnEwuy8hmCck+x8694G1qS9CWNzQrHcUn59iB/yjqX6XBndOOG/fuXYcSiMb9W1MhyparlErlh9uY1CsYTuqhvEQ07kfBfQbOR0WFCcAjYCYgf2CnP09YnTb8KLh5vehevvg==
+ properties :
+  width : 711
+  height : 472
+  widthClient : 709
+  heightClient : 470
+  widthMin : 136
+  heightMin : 186
+ controls :
+  -
+    name : LSI_Utilisateur
+    identifier : 0x2836ed2d1922cbb5
+    internal_properties : CAAAAAgAAACfda++nEtxDbICgd7ovAGct9H5S2ruk2ZveE8t1mGsR8aQyXNvL0MosMnWR2MnCgHvGM+KpbRd0b26AwoL5WlUz041UOkMzy0xZtabdwGvpYDzq/uwkaYYJ3M1BQ6qi3r2DJRwFES8qAGkzjEZ7PawUYhCBdzRr12/Ph+81essZ8WWYVeS4P7rvm9Jn9Qg/dHmskfsOYpVVtq00A100zinnRXXTLrwS+zN5ZHrX9mye2dWCwcI/mQo8wmDXTA5mnka3HMpXLW/VxCNfQ4BWWhCqG0oZLuxLbrFwKl4iKZ0l+f3DoijY9jOugodzELinpkGHRstPyJG0L6R1RyPAsZZr3gKJ9W+hcT3sKmiPAOfiHZWtUf2ye+oduwh5IFtvypH6UhTc+hKutqNKS0HIjY881pnhiuixBjqLMirWmndP5BPQro4S/IDiAEg8HoVT7Ijs8YfMtfK1yewxR2ohGX1FUmiS1DMZ5FR58IGlAZT1cHs8TpUbj3CDUkMFV/pzBHpRzh7e6a8qES84SLA5nciZqXgeVWBGqiSrLPgfX42VVGFGNx9oTayeNYG5nkvDExr++g3urAKA7oA8D5TyzIuMFjC2pXMUKu3eBkRZtSoS52n/DpKOX1zr9J/M0bAY1qcmEWC32rup4g5poe31TVYGW6md+A7owwU3b7e9+kE0Ao5JFHUm27LmEkfLI5gbMDkdLHdAYry+RbzMvHSwvpCxxUp1LuCZNt0Cp2/WimNr/QC31zwmIyz7q3DUVJQutRLYzcPJkVlAhEyTFlQ8Tpb/sjdHv5SC54PB/C/efYmzNK7MC93LrxYSCecQAU125VyErqYXuXi5Ec7En9wk4lcVr5YnAi24saSIywZdqnB17LvtLwfAa/id80giGgs5xaJ8ntoio6C++6aNSLiaNeSf0kOQ39SLV5rtZXg9SieOcjX/eElIA04zcNg9KfG33ecW6Y9cYKWXiNBSYubNDbFKbmipED6Hfdd9lVbUDr/Ji+gYtBk00K4walfp2uuhAeQ/JM8LAQDcCJzxXhytJOWVwYOqoPvScwJzbGh4o3s3/1Xx6NxS/RxMXEYL6Icx+ycv+4q0rssSMLJQssskh7FNPspoBVna0vRAUt8K0Y0+AEqtfRm+0Y3ghT04c+3kEvN5CLXUR8mj2Z/BVYPHhG0BvHq3wusA7m8HSXF2m40KT/+wAcis/4dmNKO7GQEVs4pk9mZxo30XkHoGgjWikYDpdyVMO+W6slU+BB2FeJ9yJyanXAsUMzAY93guLBNF6kAfn14lhhUPZG9dQc33h/P97pBZSHV8D2Mom6uNROgVwKc9RHu712lmWFURKa3x24ZkH4MMOUVd9akRlmlVykZXYZXivqOfHVBJAcNyrSg3C7/39FBZQJ7Kkvr59NaxbmJrXJkxy3mjh7W9AbBFkuSdi9eYlH5N96q9hyd7nxIC57eOp/bqQH8NVO0MYapeLroz86G5M7TXClFtoz4
+    properties :
+     x : 12
+     y : 57
+     width : 687
+     height : 403
+    type : 27
+    code_elements :
+     type_code : 59
+     p_codes :
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         
+         
+        type : 33
+  -
+    name : LIB_Utilisateurs
+    identifier : 0x2836ed2d1923cbb5
+    internal_properties : CAAAAAgAAABvAslkiqW3iYCdQ0uRIbULSx3mcdSPwWSPTX9uUNrYjMPNLtbHQzOYwieHDVnkw78+1liBCRkNhfRG1HogypoGzoEz0elTJB7goOFEnS9qyq4dTOAe5OgMT4fR15Moac8bPdHq8ug1pgkRkVW+cPv85ySo9miOPPDvMXtZb3eKyH4TIVRchZBtcFGIXRpgfG7G+tOMYNJ61ztIJLE7k0gL4afAJ0x8oN0BZPUg3LYWkklJ9DhWIl4xLF576dTp/F0jfxXjszHBNo0tFdvjlYEVw9Oi9kruUqZkA3gGswflHSIsRnoc0MLp2w5B3x3tcvmnDsiYAwtmF8i1GBTlXJgwfYWtY1/IbKdK5v8PhtXSdrOPnyLl8zpJcfojY/bAkxxlKJXKJJsX02lOgqxE9Zm8/VnsB8n3XcQzARqYhRcXBkkgdhQAIAGKx9r8r0z73cIyXi5MDrju9ZV0ht20fn+wjKHD+R5X7ObZC3EZQHHXaHXI2ddmvfGykq08ijKAs27vo9AVyfpO3w==
+    properties :
+     x : 12
+     y : 12
+     width : 196
+     height : 30
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Valider
+    identifier : 0x283a90066a411ebf
+    internal_properties : CAAAAAgAAAApWCYXOJzQS/IzUYoM4Ra/gioSqH/8HZLywNFmkpy7yPyFSHCpHff6vXgHL9Za88Dxylsq0jDxhwRnFK3Ik2ciDIl3P3ET3o0Zh5NA/kD+o5mWBiW3g0kkLNjLFsm00etrBXK8xMPd5mOSGEtTrIgjw6agpHHOmcC3pnf2e2yRQFfL/3aqOhautUsDkJoqfm0sBUjOJOREJuIRJoGFO778sBCK9Cp+fP9Mblk/3R3HBw0dFvHqZ1ovhhMr8pmSt9Xu0aM6qia7qbRcOaMgJd8IiwlxfNqpyabE1BQNm3UAyoFMnLQMfD2XYfAUQMGJLBCWiTCEzKvQD58Uk9CDvOTvCukbGAc4v4JWpESzUwhhRT/0qDUv5IUmCJEiiV4L2+JQia+Sp6ra9jw6iC+4Z3/BMazeMJpjLHsaHFUwPRJ8xxjBTXG1fsi1cajERUBEzSsnKLvAbJDEau5oN5WVNXqEJ5iZO88VV3nBhX4c3BzjIQJUoaJBE66nOODk+tLizFSylOYHnoiW8/V9QtJ8ZOkA2WYizOoOUo7ODG1uBX1LI9qivoF/pI5+DK4gmYQnCPEW14RpVeVSE/No9c0aSYCf5LTHqTirJ+mxt9BBYqaJUKVpcC+S9cywUwu5A0ZcWc1p9ON/LICIq3KaO1poxe5UlzcpGGWbFmZgPDZiDcMQRhC2pZxchiO1yFon+PE4KHVSlKOTkxfKureW6DAXo22odCvcOU4cdtMxzQGQw0v0ymnFrxRrIcJKZJtKjgRmLtDUZnldgYphg0LihgGx+SW9RQTkJp/PBtGpxAdc/mi08HKeqFLj9I4F0NODwkVbe5kQ2vKaePgP0x1M/fAB3C21ahBzbZ6uXsG8OhVA65htkeViv90Az9UsdGCCICScoZzFFj/4ZFSYGfcI7oeUadMb1ahWGYT5ReXxX/nRNr33VM4ifY9J1CS2dF2luFLOBe1IPDo1WgrL1KYyaUvs5xSuYkYu+VKrzu4m0fsTsJIo3A0=
+    properties :
+     x : 396
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Renvoie l'élément sélectionné dan la liste image
+         // et l'affecte dans la combo qui a ouvert la popup
+         MonChampPopup = LSI_Utilisateur
+         Ferme()
+         
+         
+         //Ce traitement s'exécute également lors du double clic dans la liste image
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Annuler
+    identifier : 0x283a90346c2fd4a5
+    internal_properties : CAAAAAgAAADHSXmg02LU1XlZhGtFM3X9hhJjweeQ2fPyj1bLRtA2Yb6bKRYh+Yvlnnn6L2MVeypXd9Rdr+W+SKjnHHCAUWA+KuHRMZuSkD8KdTzw39ZruqZvMtQSBBYCZbVuqg8BHd9JX5EnGQLUG81lc7wRH1MtzYgb9cSIIjI9EXNG3bw7fdAG9j8qwJUh5E/pb5Klziq0rtaaehAnM05utdG0aiBtdLXXQ9fzkxGLPbnGCIhgTqYD7lpjXDux81Nr+ur8IX9t6ik87s0BrkJ/PSq3Gq3DL6MKAlYfYR7pDZowpiNaTrM9iA3FUSKQzfRV49puY+buhSUGrbtKNVifzFgxLGfAKjOqtQj/95mLCIibyQy2u/6sEPI1XKdA6veyUQNLIHvkK5/z3YCJ+8nNPQaDVTq9+4Trz9as0de4qyfgYJSRPlocQDHdzLEWxWvO9emKYCKjxUeSfJ0VBcKyv78dnzJCmo+R8mkROSGz5FKKVzNJRbe8aK8N0VQb5Q5SFQCYWdVS22E5Sr0ePUr7vAh31On260xsgHNQMK9nFcCrRSxOZadK4BLjnC//Ejakg9xi5rYwNyCospTOz5iTupeQyiUISbWkfwfGXpcZWm04njzcio5cXwEzLzewd8T7mWwoNtFtVjPcubAaZ8CM1zXkHupFeqR6nCM3HiS2yiGDuvkiIXWiZq6GIv4JwqC8veOqPQG9W1b5gJGCACFvAFSB+WoaXBpHcazmC6AR6KD+ON48vRknUiJD9ue43jOo7kRjdi12UTQ+qtfki0ydvEc5cDk58vYtgEqFCMPeeBxzkxpyxSiAvq+6GtVmXLc62pWUeoRrjqY5JZzR/PL5PKPA+xqjC1s4nSxdK/dEhu12USTxTNG60g+QzFR61PikQrlqphUfNAPtkPc8KywZaypPMZ88YV2gB43oXMnmNuvbTHKNyBF/i1lactEPaEakm3ebzSQaRRZRcd7EjyLkA+FqM83Ib8sAzXTssAT/qEAYqdAu
+    properties :
+     x : 498
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Ferme()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Nouveau
+    identifier : 0x283c250c78fa546f
+    internal_properties : CAAAAAgAAAD90SHXy8YAgtosHbP5ii7vWxeCbgppNKq5DCcFq+9YYe6RVYi8u4b5WZ5lppRXfWyDbMhggi373AqPDtL8dwM0S3lC+5+HlNvr3HX956bABx0zCTOZCWA64cvbPZsfrSm+6L/kyE9aGJxQnYqISo8YU/4KD8WwTDSZ2dXHvtC5n4vGChhFlC5Jrc76TsgZYhTN3HUKGeI2qA3ce5PaTIDLqXO/4kYoQxAOkFnNIcP3mWF4YV2WuICiCahr66yCKTpEV+3ob00o19nuSLzJMCEZlvQQBjbe5qLZ84hbWPf2l5WcqK45N0akSUeKA/y8bcEdBCq0nj30kdPzUVM/LqzmjY5CbkfpfJPqY55JGVUz+Vie0HE+upYZgGkjTWNSyhorLK3heXhANbhhlcnCSIdhr7uCxfeNy+CF8eo6herDqW0OPOEMevCygj8I9uaXYsiCq5SGgIbemhoOvNGgARFQEnio3BZzEcx1M5fQaub7Th065LmiA44VFGl82dABdxiBbVbRui/JU1ZiDW3ghBXqkB9b4V9WgK3o8HUM+l+s5aCg5h1YYlIsLMJeDZEl9JiqQTjDHYK0wuIlmwIVY2fMdLzDPEBQZrti+naly2DAUei7Lovua4Q81VE3RtyDJUbvJhEM9VyKXe5+W0b4y8IQRc9/IujiimN3ok3VSQM7fRr2hWiRXcX2XFGbksGRPAonplIfnQiXKCaoM6Zpg8Zpl6PY2uhwidn8AM/iw1MSFeJ0Ajq6G3QJ5yg09NJOobpRpC6AFknnxf9O6GBsIvy9AB9gr3KkidybtvPZiqgw69i69nmG5Dmz/glbMz71CWw46mkxe2icfoW6o9ZrX9W2HXTAa6xT8wXU1RBcFr9tvvYZI60MCJFFgrCNrr6iSRK9BYZ13c9RiUsiBcX76z8hQ6QtKCo8a2vxqa2pVK+eeoLEwJOMVJ7z9V06qy+thrluBtlWCeiVeXcTIqY/asC7ZS/kDgRMGb9V
+    properties :
+     x : 600
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         sUtilisateur est une chaine = ouvre(FEN_Utilisateur, CST_MODECREATION)
+         
+         //Permet d'afficher dans la liste le nouvel utilisateur et de le sélectionner
+         ListeAffiche(LSI_Utilisateur, taDébut)
+         LSI_Utilisateur = sUtilisateur
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2836ed2d1924cbb5
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADdF8tq6uPhciUCBn4A5pQ+a/HLBKNtW+jo6OpvOkNXVkEyJXi9zYGnLtBw4Lly4vu1TDjRBUQ0g9g1fCVNOm14X0m8sioPYAbci7I0EHRP9DXiTBAF/SO2jfCBGg==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAD/IOojCvKBZCIkApFUDlKoa0UU7RgnmUpg1BRoSIdfrz4U1VIS+JbZRRSriN1tbDTTGPrLbETKOwhoTUkXlpu3J04LN/iT
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      //--- Fenêtre Popup ---
+      // Pour accéder au champ ou à la combo popup qui a ouvert cette fenêtre
+      // vous pouvez utiliser : MonChampPopup
+       
+   -
+     code : |1-
+      //A l'ouverture de la fenêtre popup, l'élément sélectionné dans la liste image correspond
+      //à ce qui est sélectionné dans la combo qui l'a ouverte
+       LSI_Utilisateur = MonChampPopup
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAADo+FjX3ceqiZ8C/xXjsjFoaK1SGLLQzN6bSdk6K1ZJ2txLnvXR9oUXphQdUVSGhaV6Ha3Ix46nfNPXzfdLTA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1fc794d409b37052
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

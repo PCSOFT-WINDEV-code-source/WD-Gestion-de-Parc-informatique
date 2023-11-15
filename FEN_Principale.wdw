@@ -1,0 +1,764 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Principale
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Principale
+ identifier : 0x283684d526302e75
+ internal_properties : CAAAAAgAAABXRULja8xiyYKIbl6ldfCYXgoRlj1jR1HQaqHzjkTC9iVOrKTBLNfw8dDVVvA3nUXOLIElVbQsXPZZKadmCea4gmMdP5XWoFPpJG8/39Qrw/DIpaT4qaTGyNsVbGs4d99m07rObRUPbMCLDEw/5TaZDl7EgLCpOdHKcT9G8encfDOEwCFaAU/BxaQOYbonxXBTMSW5QzMB5HiURiJXeCV1NQg/7AbMGAdOYu6zbVXU2Addlnf/exlODRfqipVjj9GDVSBXT/il5X1OgK36UbjdAx5BKsTO33/1IyIOnktGKCTf3y8qq9A5uvlWeW1FD3ophjwadgQK75csg3gqggl6YEM/HdjaJfxBrfbWPNUpXmizBTGiytOx25G8lyPVcqioYMmGM4GS9DbZe41eNGUrqxHv0YV0AyVWRxM/WYLFxTfr0QyVKcA8dzHk+8L3b6u4GKjPbEqei0jwIFyMoDvComZ/qp/DJW5pCwgAFFlcEgHFZRRn0XDly6Fv7C8PcIJd2WBwepuidZ+7sPYaCCfg/TMaufOCTMRMC6LQP9gOCw4MxbIDYHWDUGyIOAyfdMiK/Zv8L/SorALs5mj3hmnOGLFTBE9MfVF9ByF3eiHpqkRriQD+u45whHWn6SBy5MMwMSTQkANTS1mE9gO5vC3+0fs2AnMefiLlNHxgk8I87Q8TAl+1zJr3o6JA1Sh+BlfvnS3DQ+4mNPHfC9QhQ3e6FieyT6c0gBS7pABRD9mj0uyqWmatwIJaPuKsiZ4TRzQedPkKPXSBlt8Ta3JMm4Bg+XtW2yX+xrrh+bQJOSTi1WZr+1b23tHKqp8u+5pFGmdzzL2WYTAUYMejDf6aVRzRtbmapXTHS7fO/f0YzAtEIo7qtie9u56B5OY9VEY5Ll6QAmpyxMVOmIMPPUDYERlZFhT+QNLLtKia438+c5EmrdpyMzH2BKiJKo1kYuYrjJAXYcY4qsNB2+rwbqtliUY3tr6Ba5PkeQeHS/2JdDaOvAnmWwKVU0eBTFSfeoaEMquA2/n6yM8nLx9kPDO4RlKaOFRCZYHAfAGo9gjJMG4yasand6DGseMPHEl/WGUly0E1j8So+Z9oMw+mHIkpxy6f81jU
+ properties :
+  width : 974
+  height : 652
+  widthClient : 972
+  heightClient : 598
+  widthMin : 344
+  heightMin : 303
+ controls :
+  -
+    name : TABLE_Machines
+    identifier : 0x2836cd1f01e49190
+    internal_properties : CAAAAAgAAACbXEdQ0XBy1tbnsnbEHysoXABm9oSiKo7v0Y9Q6pztJNFom6usBa7soa/xwzfI6T8Qa0cUBaWNm4hOtESjc/05zwnY6C4SkrZ584T7tTNH/x/I75pCRJLS6t7iUulIuBVlpg8q9xhryC5Cu6G56C3UpWTjXya5/+DeOLWYiMFq6krHWemiTngi/s10Z27t2oDTp/y3q8lXApRg9nmxOjE1TIPLL+uOl2X1StLdSUCeu8PdC6NhDaGQTo7Z+HPveT2BakfmrB4uA1HwMD+2B8Sz6EHcK3O9T0mlzbmkHdF2ysyGl36YB9lJskzEb7vFz16W52/pV3QfgjTMhBQv7rBeKMEFb45PrqWZNR/N3Qx2yyW7fnYgnei5JTRWThBF+5mEOc+spv+aRP13oxzN7xhimEirZDP9WDhlkkK6muQXmzAOrwpHxYYFp99WfnBvLQUV8be0ZOMn+b/P9VjZ8OHGi7ckVt4j55q4uCOGqeFQnrWql8gPLGZhjaYF6JbESYPW7QwdfLb/NBrTNg2smDuOIhnH8ggcg3gtPT3saqTUanqKUIGGK+2Z8iWSBhg3VGC/zeydwOfPiRzaWo0LyU26YpNKtnT0NpDgiBp2x5UtSE3x16VtgpuPx/aplLS4q7duic5GS+Y0o5e9PRjq34BrN80DK9RF0JDEaCxiJMx4auTMJWUXvS4/tLr76EthJO0qhrWxtFf0hO1uvScVLh31uGG94rWyBW1LtF7VO4GbyY52DB1vpxqtmNj6ANsm+qf4iqUtmZSlvoy74WSguKnDFK3FvFIjTvYGn6Rl8+XqmYrJFJVKqIf4qH8jvTk7Tv2qX+gaye5nOYCXV4HSjt3hanlr2jEwCTsBXeMGRnDlrXXhXmRsH9hrzCB7sCWa4j2vKSusSt/j+Sav1a7uL7PmQtj8pTxFXVQ2CAliCg+HD/P+TUdxeGWvKbrK1gClI1m0RPIQcfvqA3BYdXMaSQzYvnTIlM++9QUAVdRsmRnVyFX/WimTc3SW72pHRy/BfFfmq+n5oKJlKdoE3fSHeylryqupnitlLpA2+cvv6jTTotaN6oDsAz5/uzGVjR7WQwrld9kn2BEgtKzpq2ni9W0cw9LbmcosrEpzPumszCiQezLc+GXx5A+AQ8woRrXbf58tjX8okjjPbL7WMb1TMPvDco6PPt+P76JVq26/YCJ/lLPHXEuGgD593EF7EXNi4MbIXUZYg2V+2llXcmxrlhJLq80cWylqg2SyzQtg9ruGxYkFnjTMGRfDxg491xZs1i2m7YpbFnHvi9GPwceCoX4VigRqXNPB2fpE4t+u/Ere62pIpwx4IweamRuUmREyhy0UYa5dJoI9kcTuxpsSmMNW0P/Gret61VhMCzZX3V3WxyqAhoL0xvyFkspe7cZMRS63zneQe2ULOSGTQYNB5KLkCUwwTftyXaFCR+S1MKj/+o3aOfqDpoevY5613l+f9cocIwqcOT6v/VEZR2gHzFs8+skTn8uz46+tuhhcXbstsTrHCbAsebsnTp5mm19aWSnb4m8WnJCDiw6raIcs+YP6rZo2a8yjj68hu0kyRto5J1zLMJwch6lKePvrX6VgcxPfyeO7fhdrVgGeeq/BKetiwhF5VSEKvtOr2GUDHDYKrMrwf8eu0hIHFI5VGL25Rb10OTdB9R3UUFAMuxdgDn0MXLAa130Ygb3QbC0oCnuno/JycU66Lwb9PUP1Xza6OW6Ow7BQErqKhWOcuznYxz+s3T7twVl2ETP1f1P7wFmgd5QXWFBdyboBwRh27HftaZC9qmgHSTEZU6nxbIU1DE3jNkYBR3TaHdHybcce9ryYuFNbUugkXWtTlI5rMMcwlAsaohwaHpCtcHBvGcCleqkd5qLMvvsFTdok4kvozWcMhNcw4y5Q2uRO08x9o5SScPmdDZwT/IIafAWl6kkQukiAcoQZBo1KVYXit+LQF0odyQF8L+NKzTnoUy2KOI3LULkyoVzGA/0Ax5gLiINJjsDQAgEcwyoaIc4FPe08S7BWzQAggE+/VvY9abg4HolcsV9hK2/k3M1/sV0Q/o6Qm3co9sM4y7ZbLrf3HkDXRc2bpjxtY0vOXqmjv/0S1lraqBSL3rN2gOK7S7HaQjTh79QE4yR88r+k77vKfOuV5Ko7nWr0/DVArSKBovjDst1Iqq8h5YUt75FJneS3j10lu4Wb2yeYXEJJmK/HBGnTJNhg+iR9wLNtOAoTv1l/mmp/rLukb0RYIE5m0XcI9pq90ubYgnjImoMtSEmPzVBn9dXBq1PfQ+i/pIX4eEivuejrlNHyTbySNLGu0Owxbznzft3flk+m3tWsGbhumgP1/d2sC+R0g5i3+Hvp1KBy2qBYgtLnzeVOH7O7n44EHIpwUWBYeiVM3VX8l59m6jSJypA5bgMYvIyq28VTRMCbVoE2GD3a22IEHYKmUtL7+/L2nc6fZNNtpkrkO11GorcZOYNkVeCNwvSBpBTiAv7wFcZ51uyiDCrYmZpg90By9nUqb2NBSw7brLrBuyinJUmp9bsUpwXhpPupfxdQdKzM0fE8POJruTvuLsnq71E5oaCC2BYmvaQQehuETslkIwCijtuY5T8aI9ky4AEKafn82GfLOs1CA+zhK8NH7qgTXocXHbDx4hGZSqH40bX5j2hkP+ywdxOTi44D+D4rD9657cnK7FvNZIHpkY/jjxrAlhHTT64CvFyEWOFpytiWMjB8UIZUZhJldn7HrdQVwRW1fWFHtdS8aH0yBow9mTHH0K/ww1gXDJIdkfi4KRWFQynLzNZ0+SXOQXe1sb3qYssr+dXI7xTRANbLTZ/IQNlnQxIjnJeUZZOtbfvfdoBeNPMrUuMQ8wLsJexPvjYjgW6pUHTBRLw/RPSgn0pN9aM/p3XUXcgrFCRSw+eIPUzG3wQGFzyLAb0GHUbKu7WDgrJHq6tHNh0NvCRzQeWI/i7j3n61r74NG97t93QiEGxpSTmoE5Bfu89lRVdETrHqY4vuAARpgj1N+2c3IDtY7kXhRTHoszU6TnXQgnMxY+tExrS7nqwkYx+Bivtsntwh/afDWHky6IJfYiZ8zbqfjDybqy2nI3kgNh3U0RUqdaD7OX52vAq8whpRcBcIAnmPyiKwGDqyV1TClMGoVaUZIZQddnRd3oTgWDszZvMwmJBmH0xemWf4F3HhX+Nk3ExOvCbble6L0doWyT4Z7SCbW8IPIVQ/Y8SVY4u4E0fCQoVql4L9tBkSxnr58aMftfOvCBJjX6GYUlqrWB0sE8qaOG0Ku0dho693mUk9uLKbgOLAFs3HHr4WcZVfFv5dHSJymFZ6txgbAcj72fJzIjNkOnekAJYr7rtsv3FqQMUkB+44FpftWHcqeg1RqeChjs2jIBfKHRaT8RTM54zovd6Fb9o2usmoXw3kqyK6gO/7nRIpu1JS28BvRVZn4Oe/OfZ2lKp7/SFLcbod4uHmwYCCkeFLyeHbDFpozN9txiqf3SCJPxxd7dQwfwMf1lQyLnEOPx4yrgx0HHRQbr5S7UUuy7Ap4fU+feneDmWML/niun9o8XF0N9qUDCNRTSWuHDke/4THPhVoSdqg7NMuqtCPlp5FGSjc4PtO5opNfKYxI1lKI9sFNJnD5bBuUpXz5JFaZyIpkvOveNlOMLVf+xKSRe/jCGX1nHRa6q50IOD+dESavPtd/rRWsk0KtVZdcTjnhXgInoinnX39SunYJIvaHzwpHADTGllxgPzJbjxjKJbOo808i7i0imvb0S8TwecbOQPMZKWA6ro/eTcHNgnmOXDiB2+fxhpouKqRe6gJ10UBsKqs5MkhvX+E9/gO28f1jOiZdt84IdLg1XbYY10TNdQdfdPALce7WU1nJoKjjQSqz0fl3GzrMeSR2MmwhSg0lHYDavECf3HUnAonAu7SL7d8bIDme6rM8NNXZgzV2088be6anO+Lufbhyfq2sntgUkojHYY4yuP9CZypfVGtioNVmAAMknPOVTZ1dvj/wcIt3r4+FQdm3va+5wFNjGT9rML/z23pWFDWmqif6ipcTddTz3SqzScnoenhdSW2Mt8Ifl042/hdgyvZw6HEG3LMyemZPlFt1kchhYqZXCdqwTeYAH3fsK8wrZMMzalGY1y6L1WaK2ZvpWGns0XUZVumygoWLVQbBAIwT7xGSonX5Fs5n6WXkkkMYHh2LfFl35Yiz0Lctkx5PmoOv3bQsiAiYy8+YcfNvsPh22TgK39pXtxIDGBQLT9zgSfhlIQEQPSYBRPeRWESZ1hp5/6/F2EKG4CGMOsXArZsjXwxzjR2c5yba5XDakfeMsCgBUYapl6QHSJ03juz1WB1p2MB25fhqqMjBqSciQ0gkyXjLe5igMF48L6GN36uWkQlyMex/NnyNruNPnnppU1PjiF0y+Wj4NwmN+L669zVy8Bzfu/thP7GgJnjqX7oLV1ZzUwrH4mhcQ6Q6sz/QgM7yV3/CM5bYB9IizxzM5AvZIdbn3wFP22R3Y2rn9rUIaUDe37kAFHGT+HJtzp3YNAYNh4vRmjd/OB6C9vrs9f5ZnvsWmkOV+VIsnLH60SdJw4INHcFpfQQEYQ5yxxmiVlDHkoTrudbWFkmSm8d9mN9swPMT5hpERAB3AeialWhIOcQO3HHVY0K8JrpWqtDtoThQJt6/J1LoEwv71mhQmHO4ThvmiC5VbGlHu6ekG6UHTcEyiKs5QmXnx/+eKivygwoNy/ZzA2OPjmZSJu3TEU3OpjQTyCzmT5WccvRzU4VvPRSAnHS95jtaRHEai5xUMVUU68fsdh/0LiUN+aEYOy5RsVm8DqWX3NK1A5SIiL+F++xGetVDGc6HyXb6uwBP5tvDnbe0IvpQFiZMm1KWiGKnT3ClyZao8Xcf7qp+8fqn2UkGFycBVGr1vbR56AmkxAR325XqcCILQVmdse9xtsmkcg8lvx4PJE/t5IgS3GHDht6t4Gv7ph5kRW9PhcCTURu8DpRp2EA+VgkKXUZwVF0hSf0lluBmPg0NmBBKzp9xHpAG6j5LFBYfOhQcayIVnWfnrSYWX9FsZYL6ek6ItIiK7eozWwWr1u1GI75ZKqhAzGwuIytpZhl48m8iwYNYcjbPf2NqYS2zq13TVz55UqzLQrFgRWVu7jqmFgZkUF1MM19BeTmRGUDzzCMW/A2KMST8J+bR4Ms4Lng6fnl2cCvSru43h9NhwQ06ThzgPWCVMZNol+Zq8e5RUJVYx54aRS6oZtgQDfgIw045FIH/FoA1UAWAlxp+WKvGrKMOD2mBmm4zyDgepdxFjPiWyznXwf/W1q9HMFXZ3LaHb5r083djuArbQHgMfskqLy9LNKZJW2WVBsvjN79Eau3bSklXDy+U5FNnaB8B6tgYPGYxLkIa+T+XG53fe6dLawBhhv2xJQ37I+P4zJonHqzwz98zUoewSdWrOexVPZCGcnlhepLHkqApQXsW3Zw/WkJakhNgLQWfQGKi7eaSr/gpqh17eyCTLF68Tx5ts2Y79JvrZosQMxGkNDYswmc7MgVg79Wz/ibxLolaDZGlfNIjvn8zmxKXF5AercLojbEh8+m+X/OLKE7cDkzbfkLDmDs59yQwEgg6J4twODAawWTCIgyoMHY4Scu+gIjbkH5TXb1HKBy9vUD+p2kS/PVDGcEjv1k5hAuJ0IGWPXW20g3xb2ubEM1HL+BHNXatZoK8qP+FGv2oAeg+mZBG40hsnxvXCPRYJdTllX4fh/vW+nUoVxzgz3kywceZUoSuvNA/UGhrPK0RaYcnTBk9C3kvAifrCVnaxioBIvnQmg6BevaHybB0dy+MtZM4IpxbB3NfgDpfO+a0hd9zHy/BJzupbHrk3+vU+Xj+IEEXnrbkMxPWFeozL//6TDGVwtpLMNiynMq20ydkSRAeTMD4/yPOEag3Z9fhE7r/eyjcOXhJ7I6QvPvyOCrgvWnqQtJwwxhn5YiCLhdeGIyftSNZ5dY1kkiqW3Rk8GfARNCqPa9C8AP5+mUGyWtyQJYI+CI719XVJKjvCMq2HtyaYu9XvNBkHSNGIvLpSnNEl+qjgT4PRgg6IgS1inIslPij0A3KNq78JAF4oW6Kqmake0vPB66iLc7jFKP+pI291glq8DdE2vzJXqcDEwshroJlYCKm59yeYALTIHMEILN3tsE+Zdt2sXsCRqWl+TU3YPovHB8rHymHR5+YbAUlFFB3jYjq2GnAqfFmvruAqWgZ2U+i4Eikkr58beCzvcE8eVfGSZXnr7QJUdtbnDLOqMNsVWpHZtdPIAgCADkLHmfZvYeZOGSmg==
+    properties :
+     x : 16
+     y : 86
+     width : 216
+     height : 506
+    columns :
+     -
+       name : COL_Disponible
+       identifier : 0x2836cd6209ff9835
+       internal_properties : CAAAAAgAAAANxAUNdLHVSYlonwsDmoixbWxVEISigXNMRjhBMrd7grgHWQW9TfHHF1sPAFnWd/7gG+7wB+BK37MH8PCz3Y+n/3l0q6MMtZqk6jiVIgd4sSURDc424oqqhmZz1q6OcYksgu8W5zdSJ92laKKqBV0/MsRdmHl3j3P+KhgtlMph5qyhfu8+ec0FSUcdHHMNnNhJ
+       type : 8
+       content :
+        internal_properties : CAAAAAgAAACdMTAxHTeaP6JzBtrOTwiq16jB5UAPYzw7G3cE9pVPXO6HZx4As8RKq7ZGQrJlSQdZCnG5pb1nxXfLRGirMkoKrUhp21FOMJNd/VMjUElM3EatSIEb4Dr+0jC3Ua/6hS8KawleLIYeAinFfSDNKz3BjtXrHfwj4UpvfNk9mQWODpBreXWA4eNnNRBLWJdlL5f571SiJom7HTbuLbQX8bzMGpJOkEPfUFqGfiuiduYPM5eORLXUcRjL4caxkZghLu9GWfsXL/RN7pykj57G++t3ZPT7UG66o6s5aakBle/jE8XTJ7Yx9WTDuJRh3cAfzTFeO9frzRhEdIxJb8diP6VGwrrI1X4f3DNVR/idfeyq1QZS9Ip1pgeUQpJY4tS738ffLhltZimgWTQ0qYjfnlHxZUu/q7yOO7iZ5D9Y
+        type : 8
+       code_elements :
+        internal_properties : CAAAAAgAAAA7WCwZks0RQPf9mELqlY6orjuE/vwf/QbfCf8ab+kwbk0OrUhPzXyKXRihWaiUwkkH91JEnXCgziOhUF/RO08SIB7SlJA=
+        type_code : 8
+        p_codes : []
+     -
+       name : COL_Machine
+       identifier : 0x2836cd1f01e591a0
+       internal_properties : CAAAAAgAAAA4HE6bgLTIahP8dlvznsLNSL+w3/51itwxGXKlv0ysjY9Q5VJGcJ6l/ZW+ntBuutyEyUdWbTWYt5evC5K7VAmKbf0705Zhgae0A7TKJGkKmoyU9g/CelZhISmnBlDFULfqWmpd7Fo124u13ojpemUF/FNa2Lb2NqpnCkOZuQg0F1j3DVO2vJSf3JU/e0sCmKU+sKsmfmLm3rqS
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAB/Q3Dg0Rhpz+2YCl2G8Ul2rBn1DhIDb98M5FV3ogrctIFuGKGFn0+Kno5X0lcLEck73+3rKaN5kSlGCNh/0O78baddMVvTk5BAP3GjuVar5u5YsCPG+JnIihLZFbI7gsOV4UYczmZ/mgZfwy9TkxUIK8KejHsSnK3uQ3ZTG3rYGbjGK5q8XF96lmtIy723kg5AgQKteL3VQJltEqVOGttv6KRK38XciCldyGaPqwIQCF9+2u+oPtzqfSt28u3HBw5/Ocqwoe8ZZ5JuJYzzFSbfcUG3zJ7hIJLj6XgvJEa0eQfrrMrZjXYMo33CtU8SMa6nDf2IsjPDXvRi+RRuKN53xmD7J7FrnH3S7HfMXmI5o+NCNW3x8nB01dkSVqJzxjDv94oSu467Yw2Vx4O74aVpm+TnbL5UV/HOHevruDfHVM6GN92D5AIMWGUVPstZrkAAzxEXIPe7TkMxxFEHlPaScw9kCSS51vOQle2kBP9ZKn1wPkU3zLPvtqdVJKKxE0BSS3lSChoXDCAP/IMCJky+kC89JZuVutL2xbbskXEp5522BQDYaj5V4TwmRbpAwm8feaQ7GGx08FAovZ+Bk2D8tDMHaZtek5d8e+ZPfXTt4/3Cx36HUxiNNSnqDh6uEbKspXtIP+1Dx10ZKlZ6z9QAl63wvEary+MIX6rTGayEltXAnsUPBJewBD0Lvomr9MDkNNCkn436BFcVwrii4TdeJEHO1Wsg7IHZS4maAcjFlvFaSi8qA4zGja48g6cunDS81U3gD4EH7KxdYrT+ajZQ3anscGK4zAid9kjC3tKzT58EaXyFxmcIFApTrBzw+5X9AwCNETPdmo2kELLcDoZGG76kOT+cIP0ZiVW3jXAc/BqU6yjM2KajmfgSBuAqnNFMfXNSJoejDJBT2nxLl2Lc478/z/dWaZPJB4ZXeYG0aLZt2uqVJEc04IwY/UtOagk5urYWPrrvr/JMmzA=
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAADQRI+irUClZHJNj3O1zWSq/AiCABhUjRlX9A/il/S7FI3W5u8khh8KTHAXF/MEePcqxG+Y+seVOCLV1tO6m2g/wmt8IwLuLtK4
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_Utilisateur
+       identifier : 0x2836cd620a019835
+       internal_properties : CAAAAAgAAACQ9160YHqk9e5ADSv5E9/ay4IOpFVK6yyzYB+V8BJTaSmo6Fw75AIT9UOjAwnaPo62B5TD9gMcxx1UNq+h04yFPkd2OtaPBfWmiOhgwO8rGoLORig8lOY4IjyH5vbObRaVS86QVZBK+0VXolHm+hWD3ofnYpthw0hkZgi367cWdftiy73Cjq3POVa+H3Xw+y94YM5qLzLQkhkHKoImVr11hA==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAB/Q3Dg0Rhpz+2YCl2G8Ul2rBn1DhIDb98M5FV3ogrctIFuGKGFn0+Kno5X0lcLEck73+3rKaN5kSlGCNh/0O78baddMVvTk5BAP3GjuVar5u5YsCPG+JnIihLZFbI7gsOV4UYczmZ/mgZfwy9TkxUIK8KejHsSnK3uQ3ZTG3rYGbjGK5q8XF96lmtIy723kg5AgQKteL3VQJltEqVOGttv6KRK38XciCldyGaPqwIQCF9+2u+oPtzqfSt28u3HBw5/Ocqwoe8ZZ5JuJYzzFSbfcUG3zJ7hIJLj6XgvJEa0eQfrrMrZjXYMo33CtU8SMa6nDf2IsjPDXvRi+RRuKN53xmD7J7FrnH3S7HfMXmI5o+NCNW3x8nB01dkSVqJzxjDv94oSu467Yw2Vx4O74aVpm+TnbL5UV/HOHevruDfHVM6GN92D5AIMWGUVPstZrkAAzxEXIPe7TkMxxFEHlPaScw9kCSS51vOQle2kBP9ZKn1wPkU3zLPvtqdVJKKxE0BSS3lSChoXDCAP/IMCJky+kC89JZuVutL2xbbskXEp5522BQDYaj5V4TwmRbpAwm8feaQ7GGx08FAovZ+Bk2D8tDMHaZtek5d8e+ZPfXTt4/3Cx36HUxiNNSnqDh6uEbKspXtIP+1Dx10ZKlZ6z9QAl63wvEary+MIX6rTGayEltXAnsUPBJewBD0Lvomr9MDkNNCkn436BFcVwrii4TdeJEHO1Wsg7IHZS4maAcjFlvFaSi8qA4zGja48g6cunDS81U3gD4EH7KxdYrT+ajZQ3anscGK4zAid9kjC3tKzT58EaXyFxmcIFApTrBzw+5X9AwCNETPdmo2kELLcDoZGG76kOT+cIP0ZiVW3jXAc/BqU6yjM2KajmfgSBuAqnNFMfXNSJoejDJBT2nxLl2Lc478/z/dWaZPJB4ZXeYG0aLZt2uqVJEc04IwY/UtOagk5urYWPrrvr/JMmzA=
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAD6dNDgDChOEZOEyS12cw1YhmAOSh/wKbSI8kcabJKF6Hbh7QJT1NGx4E6qha17kbPmN/j8Q8srtTkUEa3Z
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+     -
+       name : COL_IDMachine
+       identifier : 0x287c76a9b3fee9e3
+       internal_properties : CAAAAAgAAABXLRVzQ1Ue8rrSvzXFtZbcqrMt04M/jvJ1a4f8gI+fA/39pwmXZXHXmYLnjgNd0nc7ZDUaTRGWRms/9TjfMNaBG2qO7jB3vcmXKfBNC1eNLiRn4NPM2HbpYttNff9iXl7440zQA6DzalmPhvL6zsXS8dyixlDV4K/fBjHKPxz0aiV6joVGu7sqn1ojo1Gq0lU8GLEqCtME265Ye8WZj4dcgrHuzxOnQtM=
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAACFrL5sCl7HaA1uJRp6ZSs4Cs8qjeakMF3PTJT8IBqnpm3Tv+2bvqF3gDsQ2N7Mm1DjC5zamEU50KqdWCXU825zVos+B+ut56LQSJ4l4kR7a3nd0NQ2Z4EMv2TkhqHjexesTFhv1Yyy4SHs6TrEPHih+7Z0B88FoMqR+HsvxaHdxxGJzzOQBkFU9EHbZVphUJ+8i+KGIcd/T5zlia+Et1c/3EhsojxvGozGHCbEN9WkW7B7OpLdFJz5TFXHeHy+cJvFRbrq8HfHTf+7Z2F0iqXHp0SVyUkXFPWCS3pBBPVRh4jUtS+dk1O2TplYlJLZfu2u4R+vN7f6dE3LLbpbvHG2Dc22/3MQ1KNZMYGDMZarvT5C6ulFRNGofTti85ludBIL21Nv8XBPwyy7JhFKnE2RXyYGUSEak6Uv4N24kWAa8fziq0ertqk2rZYG4PZjC32GAcvUC8Ks9p2RgOnHe+PW0+99Y8oUgN8UwKEtOkEQzeuMS60UX1X9IcXzDHS686UJmd7aWF9xW9J1etey0Y4ZnSPgtT266COmgfacv8aD4ESwqOjOo1bYX47YzxTD2B7814HRcIcqixRw6V9Lcth5A5kUCZUR3fy2yRjfAwONxk5MwCDVhETKV/cwQLRJJfGtveTOlcylKIWd/kSuxgJHfKtl5vJof6aWUaxLnXMQUS6W/WFn1fWTWJWDJN3GdB+FsEsSb0ouW9eJ6uLsIs0xea3B/QHzKjzlM/H4ZcFjxT6K0Z++IjzrgZ4cE9U1dAXfrbQqyXCVnwqnRLA2f7oPGiHD6ghJOGcdYhzmDEO1zhz4lmoJKy/RQpQVhCj1JxySJTndu2atX29SttB+hai/cuYrb9upwJpb5/8HN+8oqYkiouBA887G1YhyPvr15Nh1/z4MqJSzn8ZV0MK/HnKTaB2GFyuvr+LkExbjzf+Gd1vbGMSHAmaEv2tYtyGHChPHhFI968CD3BIMkMuGyEg/PJbWdadDicwGjQYXKJnGJVW4Xh4a
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAAA7WCwZks0RQPf9mELqlY6orjuE/vwf/QbfCf8ab+kwbk0OrUhPzXyKXRihWaiUwkkH91JEnXCgziOhUF/RO08SIB7SlJA=
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         
+         AffichePlan(IMG_PlanLocaux)
+         
+         //On se positionne dans le fichier sur la machine sélectionnée dans la table
+         HLitRecherchePremier(MACHINE,NomMachine,TABLE_Machines.COL_Machine)
+         
+         //Si la machine n'est pas dans un lieu
+         si machine.IDLieu <> 0 alors
+         	
+         	//Sinon on affiche un cadre rouge autour du lieu où se situe la machine
+         	HLitRecherchePremier(LIEU,IDLieu,machine.IDLieu)
+         	EntoureLieu(lieu.Rectangle)
+         	
+         fin
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : IMG_MachineDispo
+    identifier : 0x2836d4c011c860e0
+    internal_properties : CAAAAAgAAADYnBUAVXvJBP6kZ1lUslpzajfbzvNrMDwNxe2Fl+XuX+bjTOZ7I2b/f0bD91ucIL6OsaCfqjs2bbGiJwF/bpdOUK3dEUEoBP8E9tgrqHS0SsJNBfm6TDRaDUqatI06/Wohjh6mz0LZLGggSGDZ/WokW7y6DDFm1zPfnJN7s7UaH0U8kYF/gohC8QsU/4PlIDI+UU9wtspRXuvzEvmdsmDVV8Il+NPKAJQr9UdR8usOEGG9Cq6JRgJeHKmKbO+QvkdPpl9t2Z3vhOgEBmrfnXumrWPHVNO3a2ElKcE5Xfkh/d/cqLIcUXKJcqUEE9JQCmPfIRsgxkBJAaUovIG9eGFjEtkKPTlRFuwRDvJUw2JF6UQFhNDVuu2Xowo+M3Yv3IFp5M3navJGi5yAyBzQIwp4urGArWFuL9sfvc634NzKzxfR1r1Y8xeTPmbDUE3TjR5so/kh3UjH4sFOZWt3iiYKYaIdZ9Cx1EKqGc9vp8TMNY8s6lI2sgHYeSWp0gXMU4bzdDIhcsC3NSG2iwUdfykLko3zcrQaVOSLJTPCkoOmaNgqXcXue+LGmrv87ZkzAOCwNmZCXWWbRcNVFOO3OX0mwhDcmdpzlq1+BCTWJEdCbaiBGsKYDPwavciDpF0qMwZ7d4fMr8vxlBgPB7DD2Z6NSf6mkGhU4ZVZqMZLf7gFWL711nGdFSraCrWSOFLeCNO9GMqm2cMRrxLJhXPR8r0UIaHSD2sxFmMFAoQ6AhN+wCgdGiPXv9JJCeUcW8oi/nEq3b7/NUhFM8Rdd4p9EtvbPNLVhNEyiQN6l/FRjjnk8yFK69jy6kAj9pS2PUj01q93zT7j+mLU26Pb3mamTftKYeIfrkt74gUkPaE818GuEywH+7dHByWkXv7dMsfyNhN8raEu5lZPyr2dpU0WokytbGk2DtEFkxomz9FIOkpqxzVNxwrbtEL0ctMMljOeSSt+VyWtC0MDFZj7skqHac1S
+    properties :
+     x : 2
+     y : -83
+     width : 16
+     height : 16
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_MachineUtilisée
+    identifier : 0x2836d4eb14d507d9
+    internal_properties : CAAAAAgAAABK+kXY0HzehdJEkhbefXNvANoy3bh/LpzJKBmfB38C3CFkqxNLQlXoqCq+yn7SIBaGrz9/pWbF/74xx2teGH69bBsUHSUDAV1n2S7TNUkcn3JM23GJMFCuS+WjbQRWaDIZy5fNzovMqe3bRxDGw3d1TuNcVZoLD9CbxzHumFCcoyO7mbr0LI7k7DdyE7JgDRGbZcG6sws/xw5VhQ/HSwUR3fNNWAExe6aHYD1c4n+VUiVNFMVb/ox/hpV6rGTjP7WrAYuLZji9SPUpkdt9FHJP9RbEIcp+G5DiEcfh6/xr0B0OK/w+wljoHyIkETLklqlxlh/ST+X5QtxKBbYANUU9uoJW611k8Op076agyLLr59CGP+6CnPpaf3nA3dvzDp/QKCSCeoA4+GJryxGaUsISHrqQ1Mvg8Gc1uaRnoWqd8OCR4LFDGm6ckA71xa1XvhMMKUQ7BfzD9gLhqQOghiA7mk0khf6aRoZYHsFv72RQY0GPWMpS5newZcXnOGlOwwtMXnmNiqIK5rxuLuF8efJXQrpyUZGXDD0VGMf7uUO0dQvSttGuqTm7fZ6kGmE02dePXt1+3bsRhTE99fdWyYMtz1rZCXZFwyTruP/8VU+ILK0RWb7AVvv/9LpP8q/EOuSlteJvmori65l5ZMwSx+JkVxwAuh9j9Hl0phlfNk7fVLmrUTcfkcSMOqoLCgOqCHeslHU2felv34xiA0tGEkTqHT/l+TJ2232ioo0K8hXD/rCJql2t3FXuU6Sz7qNYTe6X7R6kTpS3O4a/UsQAYVXAC6rkKpu87BJjV5BxmMAGgJn0HLLNpJ09lBeNW9GhVj/5veGWed6qtAZqawABQp0X3GzVnolTbfjzZZCpHVTVWX7nJyyAQDOBZRrhwI3kI/sw887CJTukL29v9qRn0HjQCTMTHOJcgO9jo3Mxfud9GAgA53exYEQt8rbGJVdqDLnuYcMZD+FOip9bvhw0LGhHxg==
+    properties :
+     x : 34
+     y : -83
+     width : 16
+     height : 16
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : LIB_Gestion_de_Parc_Informatique
+    identifier : 0x2836d9e657747df2
+    internal_properties : CAAAAAgAAABAaJOLPeC1YpYliGLdz14k3kN2V0CHAc2ljYnpq/5hAr/nNcHvh6B33V22QmtjnEQ7JI+AsjdnNod9+aJO2Pf4Z1bE2QknXJ4N411cOMoiLR5T04/ksW49YjcvaSq6uHUQYGCgCzXzoPHpRtk3i3GGf2sdbjaLulRZb7CPMDpE9uJYPHq8ULV7ljiiuQ34Al9WvxkbKfzlt9Tv2Pqd5UN9VfmBBjPJZzGCwqWUUm9nGuRlrmv3I7Rn85Q2M30imUdLt5GTDSVAyobR3pjyKerDywrQyrvobnPFsL5lKY+N9Cp2LIVdL1D0RhWtPsl/GpI9whq98owgABMMmGtVIqizTxlRshyThjy3tx24kKnIMTfFWUf4GNpqhGlN3hLWzU3v5MuTV5A7Qu5vVieU+3Nl+9FUDiwcszsW4FAbmVUZ/Q3qf/r0l3uk/KWi1x9S3JRpogMCLp20Iyte57/c6F00h7ygbyiurV9s/5bH45Hc8WJZKbDTPFWyNgeoictlm85SWrqZsBH4vB3Nu0CgxxKHrSX8BuJIxPqaUcilt7ldZTza0raEwbSENMO85w==
+    properties :
+     x : 12
+     y : 14
+     width : 453
+     height : 30
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Modifier
+    identifier : 0x2836c5b4c31f9cd6
+    internal_properties : CAAAAAgAAAAC0FVW/nunLZJYqa53IOgyI9vItsro5uVIFc1k4uwt40TMr1SvbYN7+V9qQo1Xai8goy8vP9A+QKaOBvNujgKC3cagTR3HFCq43YOAAaFsKah2B0vx/mx+fjB/dq0Tdk1yWM5mvVz0QaSnKX4hhqHxzUeBwC4hBfYgFHhxUHfmJ0ulo3kQT+oEIMCmdgpskI7kgRuKd9tvwccrzSXL5rmegvNitqZCoGdppaeRZ/qqyVbPJaFSGIuCCqhOwh80XNZD0gnigu9EgHyGTfP9GC6gNTtDLwxYk1x2COthOVP2Ma0v/IGGyt0Lv28zVE8+Lk/TGqHP6aYOPZ2Kl350uZoV5LwFpBSDOw1CR6mUV3m8e23udbBMlQLKhLO3lHhH8tfXcGsTfzIaEjd16UrHDs4zMTuIRIxN+3C5SRhocMwTn+vh7SDorE5g64LLWixgSdlER/bhRSwOtT9OXJ9P/B8XWs3Vhqdb3N7Yd/WoZ4kHRXc90B6/AUlLGGtyUGjRo2SuUl1236A/NX9LD1GZf7A8SousemHNbUgRB6Ygcl/waEGsa36Q/oiCI/wsjstH/hnsDDBEHP0BibgzfVDUgL5QmYlRZfFqax/EtJomULfKmRLmmWgC/p5AE0D6zDMp81quis1SBYz1jJu5d+AF0p+Xy59F3cskRSjbj8KyxZ0Qxhgf4Gavzf3LgDmj3om/7ZHmVXxYhqk9QtXaBgwofjSoo1uv49MOsPO7aBku0ox25avuFpvCFvcY7MkAHLKAukEyB7MJ9bG07Avc/IBDCS/q7U9BAHspabKccoBYyq3HKdFw1ABS6LyjiKeWZGzv6t4jxGv1wEKD2skow43LsvLOVX4sO+OZlA75qQ8vi6qh6SJm37c/T4RAeesuc+E6H/41yymz2ljlevXg6CWREz3NJoKoV3zwSR1hXI5TXYscD+zy/Eqch9w2Tkr7z5iJ8zSz4Gv9EkgvTLJJ07wMHcYket1/Km9YATKLa7AqImfiAssmLAiiAL22uGA=
+    properties :
+     x : 646
+     y : 17
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         nIDmachine est un entier = TABLE_Machines.COL_IDMachine
+         
+         //On ouvre la fenêtre de visualisation - modification de la machine sélectionnée dans la table
+         bModif est un booleen = ouvre(FEN_Machine, nIDmachine)
+         
+         //Si on a changé le nom de la machine pendant la modification, on met à jour la table
+         si bModif = vrai alors
+         	
+         	//Met à jour la table au cas où les informations de la machine aient été modifiées 
+         	//Si on avait un ID de lieu mémorisé : on affiche les machines de ce lieu sinon on affiche toutes les machines
+         	si gnIDLieu = 0 ALORS
+         		AfficheToutesMachines()
+         	sinon
+         		AfficheMachinesLieu(gnIDLieu)
+         	FIN
+         	
+         	//Remet le bandeau de la table sur la machine qui a été visualisée - modifiée
+         	nIndice est un entier = TableCherche(COL_idMachine, nIDmachine)
+         	TableSelectPlus(TABLE_Machines,nIndice)
+         	
+         	//Ré-affichage du plan : si on a modifié le lieu d'une machine ...
+         	AffichePlan(IMG_PlanLocaux)
+         	
+         	HLitRecherchePremier(lieu, IDLieu, machine.IDLieu)
+         	EntoureLieu(LIEU.Rectangle)
+         	
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+      -
+        type : 66058
+  -
+    name : BTN_Toutes
+    identifier : 0x283aa9fbaf58881e
+    internal_properties : CAAAAAgAAAAZD6w9TsoVoGDDr4paKUuGKDKxmXTKEppqtdA5xQoDGOgZtfPB3BDs71PM1VxKhv9sZkdupUypjHEWYWwBl8fZkawyU7VCql+rde3U+1SmyXZf6Yu+IY0VIwzTL6b53AtoJvhzlbMcPxX4KFFnq1GR+pE9PeS2r2BNpGYAbw0MzEe3hVDnn70OFTaEFoRPzmMrAJXaOVCp37J91B+6QBVLSXVuz55pdtNK2Of+0Kc5CG75+q+iKiHqDUH8nuRcNIZT5VqfxP2coGSgwPAdniqnISOBSOSLIIaqA+0sSDah4nLjCB8yTgxBOA00k7lyvYaYkbbtpdtIIj5W+7uGmwHRAwvecs7syJbQ7RWBGdedLKTN/XEn3PWt3CbCXevDxieW6QU8KAUxty+4j5XwOz62wEDHvs0w0eGugY08cb52FDVaVpB6rUEqtfv2jCVXQPdxNgVU4BJnLUCxreS4KDDzIkM2QfKp/V30Dw/K0AcwjDiyLIS2F/oszO9S1LqXhmA6/LoO1plP8cFPzCB2hdFULX5mPD4Fd1pOtmP+axGHFCUpgLE7aArh86HfFPM/koFVLDdE7P8+sBxvYkUuGsPGYlybKFYDw610zNyj0cNaSfYcPl7w8TtloEygvZBBjNdbYTMKqxEcKLJ2bYhFuCctZas17CUmcBjO++Zm2vxTMZykGl1CJfdvGhTj5rhFy3R+xmkGsi+dJyj26FikrPjSCmvxbVgmGk4udsfOJcA5S55Q3aS/4sRLUfkmkdEV6fL6O3eSaRnTKOhlzaYqD2yc3ZyMFjV0p2pTgzXxyEj4QC5B1XWaAlpvEOSXgFto/+qhU98cqsXPcLZ8kVJWGLxkveCiO5u20W/kM0qaS4UnJwMT8agT9C/eoO7rvVNDjjvqffrxIw9pde0/YmNDaSnFRuNutOTYcQeQ2B0NPBbbO6DwfSChpGhXaMoPvimnZBekI/mLQxyZGJ3a6+cA6bNIeJFBpYJyUQeKuK3+jeUAsWaXjTamAWYOuI8l2Hp82K5YpnisnWsPMyk=
+    properties :
+     x : 748
+     y : 55
+     width : 204
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         //Permet de visualiser toutes les machines de tous les lieux
+         AfficheToutesMachines()
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Supprimer
+    identifier : 0x283c2e85a9bd5cd9
+    internal_properties : CAAAAAgAAACEsnKi6VL5opajt0H2W/TP516rKssDkwdSUsmaoafQ0lvYbpClybiOvlSGBaGvGp+GIoca02YW0JTZ+bNdXAByv4WciJI8MOK60QdtRvd0NEeByZjhCA/OSK/gzXRIEvqr4G9FZq1RYJJ0VY0aS7RdnIYlZzNF7s6ensbY2u4jzX8X/fVbEURuK3Z1pp5uAT0tIUbAEIHXF2cx43h25+BpEynym4PBNIObsD8WaJykXHQG8s5HxlfU72uspKvdXbi49hgqN54zLQykGeJE9AH/nYfda+Mm1/3Xkln2s2wY1tdKwRD7prVT2lSPL0CMI//0hzIZkMw3M2EEMkSu59QKcAS+lEjsKoNRQDySuF6af889nIjRvGhuwf6qEaI98b3AHMjEd0Njw1aOeZtsL2evCeLVgnr4O1h7y2JligVybRpKn0VnQjkBMITy0GnB8iHr5fJf2FDUhaMH4DSNHtfwGtlngloQR/ishw5QAD5NhFYWSnoSgDri4YOlMC48higO0u79aVuSXj/KUmHiKdI2RiyuM1s0DUDWvNLIGZufDlW+XhNzsrH9CP3trcDoTMOiUEfM4UeCflc2tiLcuHqw5RpLecoAcBJ4DNx3zChasSTJtR4/OE4+wlfZD+tzc3c8KJYtY6kBHd4HFeGfwiqMNj3VlJhvRFML2pJbvXAaLxoQmJ2pK7Y02n/pUx1ynTlUNUJQNCR9VQ3fX2xwoykNXN86TuOqeoktvxx7SbtMged+0+6TA4RnZrPnU8oJH+oDeWGmc4HtBRCMIoOz4bQ4xFSW2OHgmLxMyFjK8HCZEC/qRoEhCce+2ZOEPx/MfxquzadEJbAUyR9V1MurGH27JoNTPX3/Jr4KiRPbAEiolCX4Lx1pdjaaeF2uzIkopPs54IgPje05ae6c8pDYnNV85Sn1qFHTuyc8j/KAaLQh2Ii5MutSEzQXkG2uMwlnofzpBejc0roqgE+YLA7SnLKKWhvR0BjlcLGfQmXD1MSzkFwlh3w=
+    properties :
+     x : 748
+     y : 17
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         si TableSelect(TABLE_Machines) = -1 alors retour
+         
+         //1 : Et tous ses composants ?
+         //2 : Et son UC et mettre les autres composants dans le stock ?
+         //3 : Ne rien faire
+         SELON Dialogue(<§?183C306901A0BAB1§>, TABLE_Machines.COL_Machine)
+         
+         	// Et tous ses composants ?
+         	CAS 1 :
+         		
+         		POUR TOUT COMPOSANT AVEC NomMachine = TABLE_Machines.COL_Machine
+         			HSupprime(COMPOSANT)
+         		FIN
+         		
+         		//On supprime la machine correspondant à la sélection dans la table
+         		HLitRecherchepremier(MACHINE,NomMachine,TABLE_Machines.COL_Machine)
+         		HSupprime(MACHINE)
+         		
+         		//Met à jour la table
+         		//Si on avait un ID de lieu mémorisé : on affiche les machines de ce lieu sinon on affiche toutes les machines
+         		SI gnIDLieu = 0 ALORS
+         			AfficheToutesMachines()
+         		SINON
+         			AfficheMachinesLieu(gnIDLieu)
+         		FIN
+         		
+         	// Et son UC et mettre les autres composants dans le stock ?
+         	CAS 2 :
+         		
+         		POUR TOUT COMPOSANT AVEC NomMachine = TABLE_Machines.COL_Machine
+         			
+         			//On va chercher le type du composant
+         			//Si c'est l'unité centrale : on supprime
+         			//sinon on met le composant dans le stock
+         			
+         			HLitRecherchepremier(Modele,IDMODELE,COMPOSANT.IDMODELE)
+         			SI Modele.TypeModele = CST_TypeUC ALORS
+         				HSupprime(COMPOSANT)
+         			SINON
+         				COMPOSANT.NomMachine=""
+         				HModifie(COMPOSANT)	
+         			FIN
+         			
+         		FIN
+         		
+         		//On supprime la machine correspondant à la sélection dans la table
+         		HLitRecherchePremier(MACHINE,NomMachine,TABLE_Machines.COL_Machine)
+         		HSupprime(MACHINE)
+         		
+         		//Met à jour la table
+         		//Si on avait un ID de lieu mémorisé : on affiche les machines de ce lieu sinon on affiche toutes les machines
+         		SI gnIDLieu = 0 ALORS
+         			AfficheToutesMachines()
+         		SINON
+         			AfficheMachinesLieu(gnIDLieu)
+         		FIN	
+         		
+         	// Ne rien faire
+         	CAS 3 :
+         		
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Nouveau
+    identifier : 0x283c339fcafa4969
+    internal_properties : CAAAAAgAAAAJWpCTZMBcfq2PurrXrzNTZ/leZ/yol31FLQq9LV71RYuY8tjNnQTe+55tzBNyZ8LkZBJbKXi5BJ9VfHRXqSrwhv/wNOuSrIA0Dgfe72Xhag3SY7VW081IPggYmqHaArZllJfh3Qe+54fQyQ2s95uHFPZ060F23aWsDrrhCP4RCD7MUoLVHbwlikjxs5Nv2IMz76OyTt3B25AUCCiz3+S27spa125qYlH3C52vviGeyRUdxRnOubj5JKwtQQdXMGtFt5qv+p+gHt8whZI5mJRPep0ZslirF1XZoXWyS97kWaH1sEMELaFhcA+jsfliRDeqy6/FzOVqyzJJo7OQLqOMWsEZE8BbVksGQp1c46sxEOmgviNVYBflP5v7up1Z7VZ+ZV4zRtstUtyZAJt85O6Cf/6bBSY6SlJjC+n8DEtKe07OO7AosfvFl/AqsIWmc6uRIRdG4SPTpdqtyJ07dMVmcJVgZv1HRP1y+L6x9ZKtpScSAokZvm4uubXERvDEmpMjf7O+xPXGspeUMgfpg34Qg/87aYOYUGigUqr6kyH78gDa0mJSHuH1PbR9KXvaLMPu1HtLiLELKf1qUxX4O/LoYv1YiTNgEcLf22YeRda3ABtvyqT+CvvwLbcoFQ5FpzhJPPTroSS1UXPt+eJC7T+N7DFDdevwtF+vBJWW+/2ZgBuliwJodMHEi0L+azo74jDwfJxyMD2YpquXjSPw0GpSYh1+VoaFJO7p12rzQI/3a/jtzIaCESaoYmIC4/nToAc00uN9TFOEnKLkloaOplu2DFqNXgCN9kZcabgNhyVVLWEQ2sU22W4cighZ2IWB2KNHcZ3Dp9J5ehKe9oL5Dgf5hmMdN/965Xyug2e0mRuAoMbYVHsxzDakKdxjWqNQLFPt3CdT9idlJ0MvLHo8WdgjtluyH55e1sLkAfTlpBFgWVsOztCGAuva+jX4vubH06uOqqm727rJWdtazH00TwuJx0CBehsZunBx+wChmj0=
+    properties :
+     x : 544
+     y : 17
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         //Ouverture de la fenêtre de création d'une nouvelle machine
+         sNomMachine est une chaine = Ouvre(FEN_Machine)
+         
+         //Si effectivement on a créé une nouvelle machine, on met à jour la table 
+         si sNomMachine <> "" alors
+         	
+         	//Met à jour la table avec la nouvelle machine
+         	//Si on avait un ID de lieu mémorisé : on affiche les machines de ce lieu sinon on affiche toutes les machines
+         	SI gnIDLieu = 0 ALORS
+         		AfficheToutesMachines()
+         	SINON
+         		AfficheMachinesLieu(gnIDLieu)
+         	FIN
+         	
+         	//Remet le bandeau de la table sur la machine qui a été créée et la sélectionne
+         	nIndice est un entier = TableCherche(COL_Machine, sNomMachine)
+         	TableSelectPlus(TABLE_Machines,nIndice)
+         	
+         fin
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Imprimer
+    identifier : 0x287c82802b1622b0
+    internal_properties : CAAAAAgAAAA2IsDNERhBLI+wxCcNjM1+QQ4fFbY58YFH8ErdAppjaglBqkMXoB/RRqdh0efmanRgiRzkDw3+jW3RWwIn9nkF+24N1Yrt1JAzx0ZCQTnM7IvCRxDh2w+jbKhddZbX5TFh1SEoPMY+eO/QoW8B4y/GEAYnbVXPsNZjxmmDzG1Rup/e99RdrP2dsi1uIL9zZTRA8Zx/s8wi0hnrqtvhMe3CBkyjaWs/mhJoI48N94Hhhqf9/Q4za/m+Yx7JoRaWU39hhkXA/IV0SS82rLBOlyMMHzmxapr8aaEuFbtWeg5nIFp0kQhLCbSoA8vETUU+3PpuAR4vOefDaqvMlTJrJEZodwRe39++NJP+bKQf4CMxYltx1OVRsUJW5NfM8NNCppH6VZa5gUQj5tZVcHm1uQyPPEGbV34cfOfZ9fOQJCb87WeILkuMcG0shgssjqa16Bg+/uMTL0zLkULGiPKwy5kgkApvNAUwFeQ6HhuYasEwqQ4HaD3F+RSiH1NMQ8oFZmd9qjabwp6lkU7pKdqWPAG6HNl5aeNORHSuvhkY4vUON1KYReY1ty0JCMEcJZ+szWLEJasWYlhJog/KHHJ5gCJfJN4QKZEJ2U2jfv4PMT2fxW/C8KKkexCXU45Cd1kjCedjbni7KFUdC0Qt7Yws07CtwxqFVvhq5kpN1O6hPPw54fv9fXW8vuOaEPygw06TXTGulOp2IwXdMqTSwS794oZIj+BrmwEb8XKn9+znLEHBeqyUa5UUayTGGXYxEDv9Gv2vVUhbCdR4cb46XGuRGaNokb/XLYOO5mUWnnCLyu5zD9J/cNEVn33GwzY7I4Zwh+INj94Si+3LJuBIfrlaLspIkEaEHjtAgXFCcYcujTG75R5B0N4hAwh0lPWwdCAA8SWN7vZbqAnpDlN9rveQ9326zt9gBVz1yL94A0l1QoMBWVQ2vfg3VT9DnMm6G2uAAWeRXJopX1bdbgpdSyH2BESG+21M56ZtkBTfFy8=
+    properties :
+     x : 850
+     y : 17
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // Aperçu avant impression de la liste des machines
+         iAperçu(iPage,<§$0002§>,Vrai)
+         iImprimeEtat(Etat_Machine)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_PlanLocaux
+    identifier : 0x2063027908be4307
+    internal_properties : CAAAAAgAAAAfBFY8bdBauviBc9SXR1bmWwzCkCEMR6hUGzRDwJ5Rlk855M9XtJnGsssm8hUYbnWPN8h4+5TQuya/Vu1DPED2e8D/TkhAXBtFYaEAk57V13GgtnAUH6oos7rxMf5t8jltZVbTiBobDdFV9sU+wtgYN5X7EkLHORYIVST7PA7n9U5xrkOmIpJUHV7K4BREd9y21O0tF3SCsQmGAu15yJbKeE0TNKO5qRgNkNbBjuEFVfvOB96FJfo1wNfMi7m2lQHjHz7ksuZOu5Hv/u8bHLA6w00O0lDtpsUR5CaPDlobR0JGQO8T8aZ5TciAV12pIL+oUOBJWO/rdeXwoGdZtVNT3brgVj2cPUWx4WsgAEzJvhT+ShNBDXWYjYWSxgY8DRrSrVwYJfLFgjZ77iMMg7sKhdzlDV+d2G40S3e3b5iasim8u8gL4BVFtdZq11YGnVMfd7T38B9WoCiIuHU0vpmE8ytZxuT3iPCPDhRlWb6QFeC6vNvARd0sQd1Sk9Vo+eS/HHmYKsuEP9Ay/ngBh3aWZ7YIHlTKG8vpdX43IVVA9QL2N4nDY2hpkO4QmMIsuZB+kJY+oHH49EzO3ZY8IE3fJXZerpaEVEq71lOcvubXO+6swh9K3IU3MAMgYGLeBx0nI10aYNWjwNfTrcc1Qp0tVDdxpk3pXIdB3J7jnpxsjqFXjmCAHgqJgMfs6xP2OI0tPsmgaiXrwBLnw2PKW0g4SjuXqmjAdv194uU58pvMsUH81tHqPyr1xBxZB3x8BQ4PQdW9lVGOpB/zCxF65s85rVFBi8f4+9HyaEDucu2y3otX6IBifisKiQk0UEL1ep9ECsOmXM0JJo/j3ypYuPQxkY4rZpX0hurRWaLZ29bxklWbKexOxa7BIV2d2FoQruc8lhh0y0t/1rVt
+    properties :
+     x : 247
+     y : 86
+     width : 709
+     height : 506
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes :
+      -
+        code : |1-
+         
+         
+         //On parcourt chaque lieu de la base de données
+         pour TOUT LIEU 
+         	
+         	//Si le point cliqué sur le plan correspond à un lieu donné
+         	si bInclusDans(lieu.Rectangle, SourisPosX(), SourisPosY()) ALORS
+         		
+         		gnIDLieu = lieu.IDLieu
+         		
+         		AffichePlan(IMG_PlanLocaux)
+         		
+         		//Entoure en rouge sur le plan le lieu sur lequel on a cliqué
+         		EntoureLieu(LIEU.Rectangle)		
+         		
+         		//On affiche dans la table la liste des machines de ce lieu
+         		AfficheMachinesLieu(lieu.IDLieu)
+         		
+         		lib_filtre = ChaîneConstruit("Machines dans la salle %1", lieu.Emplacement)
+         	fin
+         
+         FIN
+        type : 18
+  -
+    name : LIB_Filtre
+    identifier : 0x2063017304aa4087
+    internal_properties : CAAAAAgAAABe4WZZffQsoXQlgMgsxFmBbEf8ZrzXN30uLsxrfi1vqRTRdP93NwCX9jKCcnFpkNi15kuBYzzdd5K7wgGCojFklVQQo1GgcQ80KI/Tq9gYFYFrdFx4KUr04tYDjIpzA+OfVN0zKzu3eUBMnVeCPCDZwIGH495STQgOL7TjLMyQgAqnlJfjPI7Zv4uwZkrSAMiGEfBVfhEgl+NXcW5dmcSzrv4TsxC3YMhNJAU0F807wCnyJVDPJ4GS9EoJEH79Wskigts1cPM7NpP876WbAY0dAaOKs2Non0BjHLkRv5blLwfq5iaxsq9jHUCdxS02geBwm2SzTSJSj1ABx0K+1djszOn6o1AQNqf/dNI8qNeIyLuOSqHDxPj0fbu6nBrmqpcVi+eF5yQkhEH4a26Z3DrBAyuDFsEe1OjjRtc6IJLnTN7eUGZcCSJpa6CRQTusVbGGSjc9U6dV2onIPoYOoYMZRcQuK8JrGpvBaba8YaK2rShLXgrkj1V6/8ghmzz5LRSi4p48IoWHp28yZZAhsm8QvQuNzXk=
+    properties :
+     x : 143
+     y : 57
+     width : 599
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : LIB_MachinesAffichées
+    identifier : 0x2b7ead9801b6f2cd
+    internal_properties : CAAAAAgAAACJsRtSv69nV6GIOZfZI/5F/M34qpRUdM8L/NwDIPtl+KBQ0O9/hgU6vHFadlJMwAv5cfcMJ/0Lt1fcFrUoc51u8OzOvWE2J+SrEMUyvf1Z72QACwwESwQLMYvUJ6Om5wbx7g2W03VqWsFA3edm9JhUS0MANQOauXlMPKJnlyzsqlGIXKW82xXw5z1sCm2bgHXoF1HSRnHVMfDvmfMxjEY8uj3Ri/m0c3S1q3k0VczAyL+5hqbOqH/GUhjR+NaVnxiGeVJpfja4c3G/51EIduN8uKXJshHx+VFnQ8xkZwvH69+k/ofAzc/gLc6/OC0yt17Jn+uayhKQzN87Fj+hz9WHZMxyGJ8JXoy5c1VDGGQq1SfiBxxaqZ2ei7+XMcDg60GvWomVeEm3qOneq87IDT7sUCZqardOLcYm5x49sRgN9wh1Eu4SZNy0iJuhXjXfJHjP0Wv804PvWlvo4/Igs5CCjwtSBSsaKd5qU6aFbiNUFx1bUOJpy7hTn5ZPgeKxvtmBa8JIRi/DBGhx324QOR9rA1mq4I+YxfyMioY=
+    properties :
+     x : 16
+     y : 57
+     width : 121
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x283684d526352e75
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options :
+   -
+     name : OPT_Menu
+     identifier : 0x2836853430629f9e
+     internal_properties : CAAAAAgAAAACcjqYziM0YDUVnVZ9qsrG99QQ/bYPR+UnT0Gs1A4HnsH8XT/Vp+pAsoOcWVnjCx7QmxaJoqIoXfJ5ayJxrTpcuOKjhkRw/pR67hmNU6/odniI6yk9hWZxZaFKh5QCezJ19KgzHfkzi5A3R2wTnui4GES7O+E/cSWrIbaB+Tz9BTfxcwZoDcsdkbOdEle9+7FFKlJg8pMnOCOxVrtqOJiLfjN6jOLrbgiSNot9QgKfr5OpMiirOWJBqX7zKNdKIUPE2nOggCqNWyASYW4WUVifDCpUC4/rG7H87G36lCVySwjRRYKLVxEB5/mxeT75FZi001dcRKQ4tIR9/qU=
+     options :
+      -
+        name : OPT_Modifier_le_plan_des_locaux
+        identifier : 0x28368c743b33f32b
+        internal_properties : CAAAAAgAAAB1cBHvBORx4sXENyZZl+WNV4oAMrVSP3semYprCiTAQlqFajF560nuo5Kr+xOmodD1uk1rGUnSO8hjUwPobrqfT3BGsfSCdUzUUxbYdgIPinli/tLL6FFewOVrBr606lMtj9C7PjZz1wvVSWQWf9oR3Pqd8NFAJIzYGAmaJZmLFkU7VQ1Jqv/DzHHF0DpQfiMzIeQC7xeoFFeAb1rWjBoDC9fCSb3VnVgtDbyE2LmL8tULm35VqACxwSPnNc0jaVX1+oVmvpOi4cR/R+/yPntkVfnhB0XGh7nks4AayhLEXiN5m6EleVFle2VB2N7K4bdtfLBCcKinXbq4PMkadjs9ZZS5HSikHTTc
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             
+             ouvre(FEN_Lieu)
+             
+             //Rafraîchit l'image du plan des locaux pour prendre en compte les éventuelles modifications
+             IMG_PlanLocaux = ""
+             IMG_PlanLocaux = ComplèteRep(frepexe()) + "plan_locaux.gif" 
+             
+            type : 32
+      -
+        name : OPT_Gérer_les_utilisateurs
+        identifier : 0x283a71c44d72ec96
+        internal_properties : CAAAAAgAAACaQ+DyhXqGBeeom0z4lRAGNBGszysTcSdAJI53xUZU+ygiSf/CvTsWrvtmga2zHLr2OwINyqDIQRvGjMRxpJ29tSUnTQGVEUrJapCw8+pZ+D07MFUl6EmXgWr4isWoCrqfki7x76BTJ+SErj0HX+SJ7b1aLP6hNQurjmIj8Cx/doTCUy7drz504hq+6jWOv/M5Nzu0z5+CAvTXt9EEahO1MaZLtatbBBecwRhE1BHkPro8pVmpr8nawjA3ImdPDbAONtc2uSvfNLSYIZ24K334Uuvq0Ul4KD1XAv0kU50fTC0AQaBaGQ9b/zguWBhddeOqqbL00isx2DLghhshOXOmj2br5CW+
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             ouvre(FEN_Utilisateur)
+            type : 32
+      -
+        name : OPT_Gérer_les_fournisseurs
+        identifier : 0x283a82651f24e086
+        internal_properties : CAAAAAgAAAAzhELCaFqA8kRqKqznujwzDeRFP1TbA4KWchFLaHxCMI2fRDbxFlfFj09SsG7rp6l//cZ/m8maAkTvDOqV2oArcmTAAuCqBv0oEe5fpunqfURRu0v8pTFSKaEQXw6q6eftNvc30gGwqnWj8kALQAjH6DXNl8yekkF53PQcbPp8dUQzPfZco82yWn3ZkKcsiA2fHgV80OQ3+xk5Qs5KfT49kJr0KVwOkJy2EQbNpyFfdJ5aFHjhA8YSBVB2atb4A3nI5mGQ6xMNjlE9ioLKIK9X82j6lmnQ2XwFaz6+KBmxCFbA2cABzuBfF1qJXk6dWpKGSQsskUoTgdRH5bp03fsV1xjqgHQ=
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             Ouvre(FEN_Fournisseur)
+            type : 32
+      -
+        name : OPT_Gérer_les_modèles
+        identifier : 0x283c4029c0ac43ce
+        internal_properties : CAAAAAgAAACLWgizOf9wCP/4tTUSpHpICYWxAYaRIYvTVtYNKRPyC6XUH2AVuI7ee3xowBC2s0FjHkh8YotzXkpEimu0d2YunVcHE0OvTUliiUUdZpA4O3uurHxpn8zypL01Wkm1lPFyFPsnMW1V/ZTsiGpvR1cHxFXdAiUDFo1PBw07LHNjpg7RSj77ZdIIWR1nvoTnL+sPVHWDzCxkSfuvAUJcr9dGR6lLlgSfqUi/kcsIXa/JI9mqdjZhZ1KErB0vN4eRqMNb9KPG3510XPQP4KeGjPuBOlQ0i5wxOj1nHh8X5ICSQOrQ2k3otIcv32dlr0lVJqE+FhsAbDHu4WrI0OiCDIyYjQ==
+        code_elements :
+         type_code : 26
+         p_codes :
+          -
+            code : |1+
+             ouvre(FEN_Modèle)
+            type : 32
+     code_elements :
+      type_code : 26
+      p_codes : []
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADdF8tq6uPhciUCBn4A5pQ+a/HLBKNtW+jo6OpvOkNXVkEyJXi9zYGnLtBw4Lly4vu1TDjRBUQ0g9g1fCVNOm14X0m8sioPYAbci7I0EHRP9DXiTBAF/SO2jfCBGg==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACypDEH0GxaJtKF79VeAIAjSgrjWv6RS9WMtjPfjTRnoQmrMN6ZHIBn+uOdgfT3pOhzJBVzYZwK50XDHaBqHFhqQzutRg==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      //Identifiant du lieu sélectionné
+      gnIDLieu est un entier
+      
+      ToastAffiche("Cliquez dans le plan pour afficher les machines d'une salle donnée.",toastLong,cvMilieu,chCentre)
+   -
+     code : |1+
+      
+      //Affichage du plan des locaux avec des rectangles
+      AffichePlan(IMG_PlanLocaux)
+      
+      //Par défaut, on affiche toutes les machines de tous les lieux
+      AfficheToutesMachines()
+      
+      //le clic dans le plan sur un lieu donné n'affichera dans la table que les machines de ce lieu
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : EntoureLieu
+     procedure_id : 1745932587060765261
+     type_code : 14
+     code : |1-
+      // Résumé : Entoure d'un cadre rouge sur le plan le lieu correspondant au rectangle 
+      // Syntaxe :
+      //EntoureLieu (<Rectangle>)
+      //
+      // Paramètres :
+      //	Rectangle : coordonnées du lieu
+      // Valeur de retour :
+      // 	Aucune
+      
+      
+      Procédure EntoureLieu(Rectangle)
+      
+      nLX, nLY, nRX, nRY sont des entiers
+      MonImagepourEntourer est une Image
+      
+      dDébutDessin(MonImagepourEntourer)
+      MonImagepourEntourer = IMG_PlanLocaux
+      
+      // Coin haut gauche du rectangle du lieu
+      nLX = ExtraitChaîne(Rectangle,1,",") 
+      nLY = ExtraitChaîne(Rectangle,2,",")
+      
+      // Coin bas droit du rectangle du lieu
+      nRX = ExtraitChaîne(Rectangle,3,",") 
+      nRY = ExtraitChaîne(Rectangle,4,",")
+      
+      dStylo(RougeClair, 0, 3)
+      dFond(Transparent)
+      
+      //On dessine le lieu
+      dRectangle(nLX-2,nLY-2,nRX+2,nRY+2)
+      
+      dFusionne(IMG_PlanLocaux, MonImagepourEntourer,50)
+     type : 458752
+   -
+     name : AfficheMachinesLieu
+     procedure_id : 1746307662173420832
+     type_code : 14
+     code : |1-
+      // Résumé : Affiche dans la table toutes les machines d'un lieu donné
+      // Syntaxe :
+      //AfficheMachinesLieu (<nIDLieu>)
+      //
+      // Paramètres :
+      // 	nIDLieu : Identifiant du lieu pour lequel il faut rechercher les machines
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AfficheMachinesLieu(nIDLieu)
+      
+      //On change le contenu de la liste des machines pour y mettre les machines du lieu sur lequel l'utilisateur a cliqué
+      TableSupprimeTout(TABLE_Machines)
+      
+      POUR TOUTE MACHINE AVEC IDLieu = nIDLieu
+      	
+      	//On affiche l'utilisateur de la machine s'il y en a un, avec un pictogramme "machine utilisée"
+      	//sinon on utilise un pictogramme "machine disponible"
+      	SI MACHINE.InitialesUtilisateur = "" ALORS
+      		TableAjouteLigne(TABLE_Machines, IMG_MachineDispo, MACHINE.NomMachine, "" ,MACHINE.IDMachine)
+      			SINON
+      		TableAjouteLigne(TABLE_Machines, IMG_MachineUtilisée, MACHINE.NomMachine, MACHINE.InitialesUtilisateur ,MACHINE.IDMachine)
+      	FIN
+      	
+      FIN
+     type : 458752
+   -
+     name : AfficheToutesMachines
+     procedure_id : 1746308697260584049
+     type_code : 14
+     code : |1+
+      // Résumé : Affiche toutes les machines de tous les lieux
+      // Syntaxe :
+      // AfficheToutesMachines ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      
+      Procédure AfficheToutesMachines()
+      
+      
+      //Affiche toutes les machines de tous les lieux
+      TableSupprimeTout(TABLE_Machines)
+      
+      POUR TOUTE MACHINE
+      		
+      	//On affiche l'utilisateur de la machine s'il y en a un, avec un pictogramme "machine utilisée"
+      	//sinon on utilise un pictogramme "machine disponible"
+      	SI MACHINE.InitialesUtilisateur = "" ALORS
+      		TableAjouteLigne(TABLE_Machines, IMG_MachineDispo, MACHINE.NomMachine, "" , MACHINE.IDMachine)
+      	SINON
+      		TableAjouteLigne(TABLE_Machines, IMG_MachineUtilisée, MACHINE.NomMachine, MACHINE.InitialesUtilisateur ,MACHINE.IDMachine)
+      	FIN
+      	
+      FIN
+      
+      gnIDLieu = 0
+      ExécuteTraitement(TABLE_Machines, trtSélection)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADo+FjX3ceqiZ8C/xXjsjFoaK1SGLLQzN6bSdk6K1ZJ2txLnvXR9oUXphQdUVSGhaV6Ha3Ix46nfNPXzfdLTA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x183684ce0030120f
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+  strings :
+   -
+     text :
+      fr-FR : Unité Centrale
+     index : 0
+   -
+     text :
+      fr-FR : Aperçu de la liste des utilisateurs
+     index : 1
+   -
+     text :
+      fr-FR : Aperçu de la liste des machines
+     index : 2
+ dialogs :
+  -
+    identifier : 0x183c306901a0bab1
+    internal_properties : CAAAAAgAAADPoFOvH3kOXJLFMlmi1jVrQG3xBqLYrfEwtpFHZfxOGLBvG2jwIU3tcy03rUuP5uCAkad8Ohcze2ybZNQHoE2iCCc0cRq9z+vL8hqH
+    label :
+     fr-FR : Voulez-vous supprimer la machine '%1'..
+    image : {}
+    cancel_button : 2
+    buttons :
+     -
+       label :
+        fr-FR : Et tous ses composants ?
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Et son UC et mettre les autres composants dans le stock ?
+       image : {}
+       value : 2
+     -
+       label :
+        fr-FR : Ne rien faire
+       image : {}
+       value : 3
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_Principale.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

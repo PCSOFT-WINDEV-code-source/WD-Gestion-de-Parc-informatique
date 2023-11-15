@@ -1,0 +1,219 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : Procedures globales de WD Gestion de parc informatique
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1836814e003a6379
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAACRGFMjdO6NaZve17joyaTLNqjQKIqyV66o1M0zUP58iTGMtJYiK8BAYkwQB7FrpR+fXYwWgC/v7pq0jACxGKyHhwYJq3mkAvVuVqNVTbDy791VxhxOvDTSAsz91/jcea5eQqgYa9VKJOb1dMSGlCAhjqMMmtfmH3uEIDOsaZCLJY93H1Zj821UbOr8IKHedQNJ7u+7wiXCNsBM+eAeqzs/zpgULBon0AYj6w==
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : bInclusDans
+     procedure_id : 1744730043373819561
+     type_code : 15
+     code : |1+
+      // Résumé : Vérifie si le point (X,Y) est dans le rectangle
+      // Syntaxe :
+      //[ <Résultat> = ] bInclusDans (<Rectangle>, <X>, <Y>)
+      //
+      // Paramètres :
+      //	Rectangle : Chaîne de la forme X1,Y1,X2,Y2 : coordonnées du rectangle
+      //	X : Abscisse du point
+      //	Y : Ordonnée du point
+      // Valeur de retour :
+      // 	booléen : Vrai si le point est dans le rectangle et Faux sinon
+      //
+      
+      Procédure bInclusDans(Rectangle,X,Y)
+      
+      
+      nX1, nY1, nX2, nY2 sont des entiers	// Coordonnées du rectangle
+      
+      nX1 = ExtraitChaîne(Rectangle,1,",")
+      nY1 = ExtraitChaîne(Rectangle,2,",")
+      nX2 = ExtraitChaîne(Rectangle,3,",")
+      nY2 = ExtraitChaîne(Rectangle,4,",")
+      
+      SI ( (X>nX1) _ET_ (Y>nY1) _ET_ (X<nX2)  _ET_ (Y<nY2)) ALORS
+      	RENVOYER Vrai
+      SINON
+      	RENVOYER Faux
+      FIN
+     type : 458752
+   -
+     name : Lieu_SelonCoordonnées
+     procedure_id : 1744750405835550611
+     type_code : 15
+     code : |1-
+      // Résumé : Donne les informations du lieu correspondant à un point sur le plan
+      // Syntaxe :
+      //Lieu_SelonCoordonnées (<nX>, <nY>)
+      //
+      // Paramètres :
+      //	nX : Abscisse du point
+      //	nY : Ordonnée du point
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure Lieu_SelonCoordonnées(nX, nY)
+      
+      //On parcourt chaque lieu de la base de données
+      POUR TOUT LIEU 
+      	
+      	//Si le point cliqué sur le plan correspond à un lieu 
+      	SI bInclusDans(LIEU.Rectangle, nX, nY) ALORS
+      		sortir
+      	FIN
+      	
+      FIN	
+     type : 458752
+   -
+     name : AffichePlan
+     internal_properties : CAAAAAgAAABzGD88NZYjvXBEnp7kaFB63DlkldiRjlc8hPWFvwqcT0j52D6OwXEHM/SgC67BoUesKVKjNXYKP0hswxqBlOlkT7RB548qWA1p59+oqlR2MbeshPpiHy2zcO+HSruJ/aQmQSO6On5GlcqHt7FYBzxJxhh/w/ywgXpgy91AB9gMBZT7yiAYxc9bpto6acPYvALs5SDG/J1Nc4NRqxEy1AX3QTEhsCQ0NY1T6VndF0ldjVYZ3uk=
+     procedure_id : 1764394091582810009
+     type_code : 15
+     code : |1+
+      // Résumé : Dessine avec des rectangles le plan des locaux
+      // Syntaxe :
+      //AffichePlan (<Image>)
+      //
+      // Paramètres :
+      // 	Image : Image correspondant au plan des locaux
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      Procédure AffichePlan(Image)
+      
+      //On va dessiner dans le champ image le plan des locaux
+      
+      nLX,nLY sont des entiers	// Coordonnées haut gauche du rectangle des pièces
+      nRX,nRY sont des entiers	// Coordonnées bas droit du rectangle des pièces
+      nNbMachines est un entier	// Nombre de machines dans un bureau
+      
+      dDébutDessin(Image)
+      
+      //On parcourt les différents lieux afin de récupérer leurs coordonnées
+      POUR TOUT LIEU SUR Emplacement
+      	
+      	// Coin haut gauche du rectangle du lieu
+      	nLX = ExtraitChaîne(LIEU.Rectangle,1,",") 
+      	nLY = ExtraitChaîne(LIEU.Rectangle,2,",")
+      	
+      	// Coin bas droit du rectangle du lieu
+      	nRX = ExtraitChaîne(LIEU.Rectangle,3,",") 
+      	nRY = ExtraitChaîne(LIEU.Rectangle,4,",")
+      	
+      	//On dessine le lieu
+      	dRectangleDégradé(nLX,nLY,nRX,nRY,0xD9D9D9,0xEBEBEB,90)
+      	dRectangle(nLX,nLY,nRX,nRY,Transparent, GrisFoncé)
+      	
+      	// On inscrit le label des bureaux
+      	dPolice("Verdana", 8, igras)
+      
+      	sEmplacement est une chaine = LIEU.Emplacement
+      	SI Taille(sEmplacement) > 16 ALORS
+      		sEmplacement = sEmplacement[[1 A 15]] + ".."
+      	FIN
+      	
+      	dTexte(nLX+2, nLY+7, sEmplacement , Noir) // Et on inscrit le N° des bureaux sur le plan
+      	
+      	// On compte les machines
+      	nNbMachines = 0
+      	POUR TOUT MACHINE AVEC IDLieu = lieu.IDLieu
+      		nNbMachines++
+      	FIN
+      	
+      	// On inscrit le label des bureaux
+      	dPolice("Verdana", 7)
+      	// On adapte l'affichage au nombre de machine
+      	SELON nNbMachines
+      		CAS 0
+      			dTexte(nLX+5,nLY+35,<§@1836814e003963790000§>,vertfonce)
+      		CAS 1
+      			dTexte(nLX+5,nLY+35,<§@1836814e003963790001§>,vertfonce)
+      		AUTRE CAS
+      			dTexte(nLX+5,nLY+35,ChaîneConstruit(<§@1836814e003963790002§>,nNbMachines),vertfonce)
+      	FIN
+      	
+      FIN
+      
+      
+      //On enregistre l'image correspondant au plan 
+      //dans un fichier au format gif situé dans le répertoire de l'application
+      dSauveImageGIF(Image,<§@1836814e003963790003§>)
+      
+     type : 458752
+   -
+     name : TestFichierHFSQL
+     procedure_id : 1320266057698993528
+     type_code : 15
+     code : |1+
+      // Résumé : Teste l'ouverture des fichiers
+      // Syntaxe :
+      //TestFichierHFSQL ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      
+      PROCEDURE TestFichierHFSQL()
+      
+      // Positionne la vérification à l'identique
+      HVérifieStructure("*", hIdentique)
+      
+      QUAND EXCEPTION DANS
+      	// Teste l'ouverture de tous les fichiers
+      	HOuvre("*")
+      	HFerme("*")
+      	TestEcritRésultat(terInfo, "Fichiers OK")
+      FAIRE
+      	// Soucis en ouverture
+      	TestEcritRésultat(terErreur, "Fichiers en erreur : " + ExceptionInfo(errMessage))
+      FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_Collection1
+resources :
+ string_res :
+  identifier : 0x1836814e00396379
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      fr-FR : Vide
+      en-GB : Vide
+     index : 0
+   -
+     text :
+      fr-FR : 1 machine
+      en-GB : 1 machine
+     index : 1
+   -
+     text :
+      fr-FR : "%1 machines"
+      en-GB : "%1 machines"
+     index : 2
+   -
+     text :
+      fr-FR : plan_locaux.gif
+      en-GB : plan_locaux.gif
+     index : 3
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
+associated_test :
+ name : TEST_Procedures globales de WD Gestion de parc informatique.wxt

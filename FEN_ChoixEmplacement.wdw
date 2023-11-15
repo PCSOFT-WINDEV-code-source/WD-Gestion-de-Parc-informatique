@@ -1,0 +1,195 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_ChoixEmplacement
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_ChoixEmplacement
+ identifier : 0x2836deec9a171e75
+ internal_properties : CAAAAAgAAACHRjv8QRY8+/JHvi4BHciI2h7foCdoRSmu/qBHfKOwXtB5zi6WA3ub7SafzZJdA2rZZg1XYIVesf7Q7C9xLLgnolNAKRnBjiG/azNZ9mXM2NNyfa+t2+mSdBWle378uhVXBcJsvMiBJ9czn0NJggT2ph1pC3d1Cst0n9fwiSRh6YYXFUMCXqZuK/dhH/ob6ec0dmkvZoTph8iMrVlk+csQfQw7PCI5FhRhYDCtomqGFHEqldGfadGfx0mGwqvfIG3vULKUMZVxw0+koUyb5q9VTuHPQlkZdTBzTRosCbV2P8edsrc8RHzKkWQeQYGpLf6X5d7RIwXI0Gk/i6aDKPHH6XPut54e/6Y19rE6LTwCtk4M7EjEPfuexS2PgvQ0RauCdPeWdeq+aTxoTVqZ/FCLZZu+ws8911xrEW6Gw9qPEJAi0L1bNuig1oF9S4i/wl8SveTe0zkfXFJYnlZWlCOr2Kj2Nac1iCDqlTx0FptRPUb5HyZQjCVxxYgSA+tp2RGLCwQLwb2Vl7bhqMBkXF8m+OA0f8HKORwf9WmgOmwOEcaOzEJF9lKXmixpzdF7QRNj8UgYrai7BPxonbuCiP4T67XwPLl09Ot5N74mcb3a7WXH+khkJ32wbpEwdMtCceADZ4WqbL2+s2+8L7g++oIlMl0Lcq12gyiJgk2bfnAtpGjRlcURYomDUTh3ZvX2ez6L1VKVa+Tz5u1FXNMCHvB+3kLPi2Um26hRBe75b3Hh7pwVbhWg4RWuMuD3SvbR5p5uzc9amzma+KERXVftTS3723Wi/nBPoDuEo20prkQjJWXtwlOXTf7rfuweAIYT7MAW2Q6B4sTxSqUZU5ti1GDA7t7uYipsA7qTXLZHtR08vNw46+z87YcMwIXiJbe58w/pcisyE+d3+Iemu1AH4IeoY41oCXZqIzIh1f0kowlowXVni42zpuyEOa6BkIR4wQBeoeHXZxW4QeMCvHT031EInMbjpZklsMdp9JouCkFltfWGYbn/PSMsGU8XSuebCigCSNGRV+hmZS+cb6IkatA=
+ properties :
+  width : 657
+  height : 472
+  widthClient : 655
+  heightClient : 470
+  widthMin : 136
+  heightMin : 186
+ controls :
+  -
+    name : LSI_Lieu
+    identifier : 0x2836e038abd32ff2
+    internal_properties : CAAAAAgAAACT5XntDK46obBeTIT7dlQOX6AnOA+7E40QiWwJny16zE0GvWZrGo3dkiN5sBnN2EeFqkLcTOd3dH/patNIcB5IyliWXQgrQCFRza523PV7aJCUqHx/o1xFjRluMneGFk4O1CifPWZOs4U4yQViP8HEtwCnoGIn24/mbYWK47ZqHjiAiUpKSnH0/K1Vd2DvG7RpTed+p3uPzo1IIymeEJTP2dbd3FLcDTgFR03qOxzbvHjJAnv0tNUbEDEb9KMZYz05dTOGXUEdh9rtCWpjB55aow+xo4atiHzvS4VnIz/1/dnOUW2ZobPKit8t8deThSpb5CXjXKaV/b0z0uJNYAIR2d5330SPH/Az6frGXMlGkMA/mJlW8QH8UxF6A7QDMIHxt0J6dwemaRVomEjYNVyVgeWF7wWFv7a4P8iQlPYPQ6xpb5oz7WPRfsDUc7GvCoHqKGOscvgyIe5dE0adu2Z854sKQfKVdwxe+3uFaaBzJ1au4UqjTN+8eSbBhywDxIP6hfWEpm2EJ2MZr79TFkWHAMwkeDZchLmt/Le+VKUSSqCjQZlc0NrYEb0lRR1Q7XolmIohj7y+qUCI/j/Z0GhD1ZLLvnoaago5g4yeoRh3oKPwHGaYwHfkg3jcue+4j278accYfcKTGFJ8ThQHALq8NQCNeB1cpGKwVXhtqhIqo+V4R8p/dvk09kQYFhGohT0G6xAXkeeHGgRAh1NJPQhWu4RFiqpPGjYUdk7lIKg6mSIYVNSUwRSEcO7Cz2Yi1za2lajiuW41z/PLJZiFpauHV9w0LQMNJceZ6kUR4Q/LXYeyBXcD0MUQDz0gF+dgm6pIUlU8wCb9MJFsK4L3R67UNglPr7GKvPKVJ1cP2cB3phe5xLR/DoWsI8vw2YhVGbrBjfKlZXw/5rV6S2NoULyXGtnHsvQeqDIqC1XDGz7dk8KqqxX1jf7W3MNC4nwVdK3GmVUvwDxzDnWoyVW+ZISoD31eLqSNngcO1gtNWoPVv/dZYtXzTHp3HWA81ODsiDgU9rByEeDrP+SUXXupi3F5bhNYIOkijgUv37TH4tsBAOAqwMskmkFCTdtUnB/J/jg0vr4pjedIWwaUuCMrolgBtGGW8xoXEkLdCE1AmNbYxULsC0kYUPocd0WAphINc2XjbmrZN23/39GgzgdRGCA1defCtaXuyFZyshThqmks5s+mgo8eFvdMZ4slSpinlD3sB1dHYkbfe1J/xOpMfo4r/pND5qp75+jA5gdi68Hr1VjiBBOJsZhh3PokCZi6MtZKxfNT/OeLmLJjrAagIVpUCvDonXpE+V6EDgXMGiFtU+JtNf8dBSsTbf16tXXpmXo3AiDORNjco1bygr6O0QYYSW7DDjuNV0+TpQoA+5faZtCkGQjxwU6Qh26+91Zi4fToySaaS5m17OeQwQrluXLeubiC3k9ci2FLBxMvcNOivr+3p1c8mew2Ps06XdQzwZDKD/tKxn0ejysuT1Q=
+    properties :
+     x : 11
+     y : 57
+     width : 633
+     height : 405
+    type : 27
+    code_elements :
+     type_code : 59
+     p_codes :
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         
+         
+        type : 33
+  -
+    name : LIB_Lieux
+    identifier : 0x2836e05faeebc992
+    internal_properties : CAAAAAgAAABMHjfsC4hczv0E5C8FGDIZsL1/YK+TOdYH/ARLxFCD9OgpZXRzf5K1QzPsNnpR7Lw3B6y5jsh7OIzxgEkvb1n1d0Leeo4Sv65Ytt0cN3NrDSJlveNnJYxv6u75Pt6H+eVnyTucCNrKxg5dAbTsXxkftSOsXc01JPjQzKAHvn2evKK5bIVsdLlUWRRO66sG9tV4n82aAosCIY8tUeEoqCwJRjTrG7hI9WAEqo3rV2ci1Te3wwj+CE1eysdKFR8DM0MPYfIWpIgItCnYpEx/ezNMgXRLnVsNiZI2FmEdaz2ddPyVc31Nf+G9CSWmunXDnEAhEa9BoNZpaTDo9X9teoLJmwhEfI5p8cs0KZa4eGHeG882rkMISGdrl5dqJDLGI2fzkdolqYbSUU8zg6PuweVTE5RfRLCQcr5nlL09N/dPNTNlRv7+yplkht/EiAYAp0zJ538dv2EcxyUdsi7rQmAham3BkgNncODU2bY9RQs/RcRl4dDeC7f71QivkckUKbtb2w==
+    properties :
+     x : 12
+     y : 12
+     width : 196
+     height : 30
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : BTN_Valider
+    identifier : 0x283a90b26f5dc0c8
+    internal_properties : CAAAAAgAAACksWF3CNQ8jIl6wpcp5NwZwy0MIGmQ/OcDTpd2FGSNfwLNtwbXKWZoyteHnGG6kLxRDfIH3/4FUBZv16NVpqAorKIsBKx7xTskwDRwq/7iAOlQhKeDxTWOvPb+E5YIiGFhkCD6wEszs4NFNt9llwZBv0C3zMP9TR2KYtLwXMNO1WE+mO6r3A8CUG+YmlZqsncbfKVTW/1oHHeHekp67vn9lvRwzeYsgK7D/kNqACtbVHeOWs1aW1M1UIgoNr/9jR8CSVa3SljqQPZXV3QHOXwVAcr0zDbstX+JTg7ZTZmkq+bNUfKN+2wfS5+mNTlRpF671F3g4+nbxc8uulhXwS6LF80ABTyhaI9AMXTr7hmMJb3rh9wAF3mJNDHTMMERsStMPk0VkQEz4lnaWmqyQwD8ZiKxkpbDP3eWVXtSKDmSgRRFbMhxFVNPK/SUZSK0ze1zmnKI8mc8/jIoS7ENeN5hyLdJb8NBcxCoV77ByYvMT4qlrpOA6PBtiH5cqg13Iy40MkOrUHccm3Dn9o9P5jJFC2eEBY4lZudvfjm8O+uER5ePVT/fK91gPexu1TI/+KrlMKdn/h87VpN/kvWtooRcVoiW6Bqwpi1OjaOR6IVWD6p3InZk+de+0A5rcMb10+tz6ANdy/p+JR02ja1Jw6rnTPIttg6PEUj3KpZRw3Io2NvA/uZAkcZo7VttzHH7VEsEcZyG5tYRfieRTmbr9HqEM5GigK4H3QO3ByBRqZsxlAdQPB4alfGJWtE5NNgaCBnri2rwF4mYquROl5xidWZK+DX414162b622Z8Yu5RXzNwAz/KJB9p7vT5yQV34dmLsZEFW3T5y1Qym7RzLlb6/n5O2VXYVzroK0KlpwiIM2w5HgJ+JTPIAsaA3BmaTFBZBi3j/MCgYnU4WBQ5Tki/FB2Ib62u2ISyWUnsx+Wrc29CiXtCGuWd9II8UnfSoYjFjJhfqtkm4mLcpFGwAvCkHVpsfMQE=
+    properties :
+     x : 348
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Renvoie l'élément sélectionné dans la liste image
+         // et l'affecte dans la combo qui a ouvert la popup
+         MonChampPopup = LSI_Lieu
+         Ferme()
+         
+         //Ce traitement s'exécute également lors du double clic dans la liste image
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Annuler
+    identifier : 0x283a90b26f5fc0d7
+    internal_properties : CAAAAAgAAAA5xdZ7D9iC2LcQ/DWNxho3D1OkRqxPuq5ey6FKg/Ua/MkUmD2wCg3NxzqXSd4vAbGGvDnYDE2EhecSCN7PUbqwo0gD6gxquN4LoSKr2DIb+lDb64O2SP/ozRhTzj/QZzAef/CzZ956kgnme1Ka+Jto4fRE5widl5TviqZr/fYePokbOc4GCxxaRxJG5o/DnTwE8tixVJz+5pwN2kwHPi/lsBr4VgBXeJnun5uaE9t19POpKFwkSDq1qCQOGrwgmtssRGOru+jR3C5rGfrCG+qoH5AdXm89de/BVf4E13olQDMK7tTBelZ/peqEtr3yFEHWX3eoEknVn2VzacpXpr723AfZ68URiDehHxVw0T6a03C+4LZkXslCn51/y4g994ZB05JEHhfsQ7IEmpPrc2Q1WXcbQguj0tEw0KJ7n/SC21DUxJ8PqBSoRm6srqhKdeDkbSadgxG3MjPYqVLT2omAGPK/O729LE8V0plPud8DJQSg4oA81GRRl2a0Ooc1d7I0jn++fIO2sLzfps9ubqJ9U0Gffss//qWLGFQE1eGknSIS4UvjtelrKnkzqicmKw03JkeDI3d5Kn9rt3MheFK5AKwKqOAaTpW5GvN43F1KJgMm7kD2AhJxIqWOVF9Ctxxa3ksMKqHIc5PUv35gGM0KXDezvTU0n65o5YwrvD4MYUzlrFk2kGKRwpnJt1hD7RJjK6ZDQhY8iNmXoAwNa4SMorRYI4FeJ437eIXUusDl1qA3aspFYyxP/nWFVw6Hy6+vSpGZxOR9XRAqaeKhpD8gKcpCUVIV5B8KAsOgLRWk+ctkJ7YYViqN/xLXLa+S9/AATqu5mxjARTLo/fK8YC90Mhba++q/dN9lc/xIApm8m94QAzboKOBh9IPBUqCPwAbeJ6aU4fkENzUdpBdevxicrI3eTMBd1m810YGFJ2KkHZBgjN4eAx1FOPTgz/A+DS7EuQKPXYRdsZTEH1cLnwTqS42ppJw=
+    properties :
+     x : 450
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Ferme()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Nouveau
+    identifier : 0x283c24e877d9c99e
+    internal_properties : CAAAAAgAAAA4HOwC3st979V5MhpQ+f++KuZxvUG2jbMgSagIbrLNFAEMMDMHjCOiTE/eQTcqlltuX8OD5Q6IOc2Uo21fUuQrXnTt7qIA6TT2sRKgCoFVmgBSGMr4hgkTWJXsrL+FN0ViNg8MdDWCpvTMrRQoFEn0D+B+k00qoL6FhYE9Ao7fR1dc+mghgsYz6ZJOYEATUCSFijGu4Zwqdp1Mm3069hqvLcU3MmoGK74GXIkjtXHR3fXKGW1OsqwUdbzH1ex8wxbwxZFMZ7/E8fniVIIdvieZ7v4QVu6AwiQBn2DlqEEMz7kyjFrFTQ46QQ9CMWCCm7EtqgYI/h8o00snoTlr9HaCZQiSBu97AJE6H0rbuYfVTRhEONnONHqrMCHvgwcAiFpniikF9fY4HxjZ1bvCQmE95x2SvctDo1IZRbpEBbxBORkUtAGE/IwU4g/MzJpNtJzGAYzeWKgCaE6idIuQk7uMfl6wLHJZAS51p4NWzjx1Qh0k5LmhAo8QFWzvuL/SeHF+UEnoYULOTv+9aMz/NbYPtfLmoI7l4Vx1r7Tf1bSBXtknpUBrHe9PrUXR5Ogezf0vzEtKdPV5cX9kan2Q6OzpGd/2i/dnl177paF00rmhNvUOsSotKlV7Huzi7fNswkPIHRBvcCdHzBNVogm76LsVRibG3TPRo66EcZyA/DDUljNNLDO0cIr9kViSjQyW+dNEWd2mJAdoa29r9vVwzFciJDZrYSezhqDBB8b1ZvDTziPjSWWNRrEIoDNP4wm3JqOOh0lnPXQkxCg5Q8eLgx1+YV5niqXj8r+Y3Trs5Z151DnhbdRZQ7rig4hKHmk6bjFthUzI8vvZabJp4pE29FK3Yk8TulN+ICjVMIvbVTA+jzGUbmKJA95IUY/8P8cZCNuMrCXGjuZC4DI5nH50Mr5KYpNUYfNzrCJYgHTiha7RV9m7h+w1mx+ajIRhTMBMSf7V7TCPwjfmyIbicReoEZuQWBrfAxF/VnoQ
+    properties :
+     x : 552
+     y : 15
+     width : 96
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         nIdLieu est un entier = ouvre(FEN_Lieu, CST_MODECREATION)
+         
+         //Permet d'afficher dans la liste le nouveau lieu et de le sélectionner
+         ListeAffiche(LSI_Lieu, taDébut)
+         LSI_Lieu = nIdLieu
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2836deec9a1c1e75
+  internal_properties : CAAAAAgAAADAfZ27Q+jJ/MBXHLGCb7PyE2Yqjvuo9mAX2ZN+LLuyQtzms1431znXR0sNCCeLESXZp1gqmo+m2mUhb2ELR2phZ8VOgUSyXddfQyxpxffipvH/iiFuFkCLgpjx1Ah9/9/ndeRpWb0s9Qcjy8oPtW3aMcRtuglgDe5Ch9/jnC/Drp19/hhf+qz96diLw5T0yWlzg33c/E8hhMwUBdSOV69/8iDQGLfTvLoTvV3YkiQ5Dce7dxB2gUx1AVvVTykQMm7G+0haIOV568KMGgPEJluRN2XjgQ11Tb8vVxt6P2g=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADdF8tq6uPhciUCBn4A5pQ+a/HLBKNtW+jo6OpvOkNXVkEyJXi9zYGnLtBw4Lly4vu1TDjRBUQ0g9g1fCVNOm14X0m8sioPYAbci7I0EHRP9DXiTBAF/SO2jfCBGg==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAAAAIOk69zUtvUoMUDQsiEJsZ4xgJPrQflst5Gqc719eJfKEKlMp3i7o6xdqm+kzfJc5iypCmRaeKPo3iBjZPt0opbASc2Ysiw==
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      //--- Fenêtre Popup ---
+      // Pour accéder au champ ou à la combo popup qui a ouvert cette fenêtre
+      // vous pouvez utiliser : MonChampPopup 
+   -
+     code : |1-
+      //A l'ouverture de la fenêtre popup, l'élément sélectionné dans la liste image correspond
+      //à ce qui est sélectionné dans la combo qui l'a ouverte
+       LSI_LIEU = MonChampPopup
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAADo+FjX3ceqiZ8C/xXjsjFoaK1SGLLQzN6bSdk6K1ZJ2txLnvXR9oUXphQdUVSGhaV6Ha3Ix46nfNPXzfdLTA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1fc794d409a97023
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_ChoixEmplacement.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
